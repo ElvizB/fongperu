@@ -1,0 +1,85 @@
+.header-ps {
+  background: url(../../images/compromiso/bg_cs.png) no-repeat top;
+  margin: 0em 0em 2em;
+  background-position: initial;
+  background-size: 100% 69%;
+}
+
+.social {
+  padding: 30px 20px;
+}
+.grid_social {
+  justify-items: center;
+  display: grid;
+}
+
+.title_social h2 {
+  font-size: 30px;
+  color: #78a0c9;
+  font-family: "Montserrat Regular";
+  font-weight: bold;
+  margin-bottom: 0.7em;
+}
+.title_social p {
+  font-family: "Montserrat Regular";
+  font-size: 16px;
+  color: black;
+  text-align: justify;
+}
+.img_social img {
+  width: 100%;
+}
+
+.comentarios {
+  background: #ddd2bb;
+  padding: 0 20px;
+}
+
+.grid-comemnt {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  height: 100%;
+  align-content: center;
+}
+
+.title-comment {
+  text-align: center;
+  padding: 120px 0;
+}
+
+.title-comment p {
+  font-family: "Montserrat Regular";
+  font-size: 20px;
+}
+
+.title-comment h2 {
+  font-family: "Frambuesa BoldItalic";
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .grid_social {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-ps {
+    background-size: contain;
+  }
+  .social {
+    padding: 100px 150px;
+  }
+  .img_social img {
+    width: initial;
+  }
+  .title_social h2 {
+    font-size: 45px;
+  }
+  .title-comment p {
+    font-family: "Montserrat Regular";
+    font-size: 25px;
+  }
+}

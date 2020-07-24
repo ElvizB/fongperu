@@ -1,0 +1,173 @@
+.about_bg {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.grid_about {
+  background: url(../../images/about/icon_flor_about.png) no-repeat top;
+  background-size: 300px;
+  background-position: bottom;
+}
+.about_title {
+}
+.about_title h2 {
+  color: #78a0c9;
+  font-family: "Montserrat Bold";
+  font-size: 20px;
+}
+
+.about_title p {
+  color: #323232;
+  font-family: "Frambuesa Book";
+  font-size: 20px;
+}
+.filosofia_bg {
+  background: url(../../images/about/bg_filo.png) no-repeat top;
+  background-size: cover;
+  height: 82vh;
+  padding: 0 20px;
+  margin: 0em 0 0 0;
+}
+.grid_filosofia {
+  height: 100%;
+  display: grid;
+  align-content: center;
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+.title-filosofia h2 {
+  font-family: "Dry Brush";
+  font-size: 60px;
+}
+.title-filosofia p {
+  font-family: "Montserrat Regular";
+  font-size: 16px;
+}
+
+.content-title-about {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.about-grid-absolute {
+  position: absolute;
+  bottom: 136px;
+  text-align: center;
+}
+.conten-about-hidden {
+  display: none;
+}
+.grid-title-about-m {
+  padding: 0 20px;
+}
+.about_title-m {
+  padding: 30px 0px;
+}
+.about_title-m h2 {
+  color: #78a0c9;
+  font-family: "Montserrat Bold";
+  text-align: justify;
+  font-size: 35px;
+  text-align: center;
+}
+.about_title-m p {
+  color: #323232;
+  font-family: "Frambuesa Book";
+  text-align: justify;
+  font-size: 20px;
+}
+.team_ {
+  padding: 0 20px;
+}
+.grid_team {
+  display: grid;
+  gap: 1em;
+  text-align: center;
+}
+.title_team h2 {
+  text-align: center;
+  font-family: "Montserrat Regular";
+  font-weight: bold;
+  color: #78a0c9;
+  margin-bottom: 0.8em;
+}
+
+.description_team p {
+  font-size: 18px;
+  font-family: "Montserrat Regular";
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .grid_about {
+    background-size: 250px;
+  }
+  .about_title h2 {
+    font-size: 30px;
+  }
+  .about_title p {
+    font-size: 30px;
+  }
+  .title-filosofia p {
+    font-size: 24px;
+  }
+  .about-grid-absolute {
+    bottom: 79px;
+  }
+  .about_title-m p {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about_title h2 {
+    font-size: 60px;
+  }
+  .about_title p {
+    font-size: 40px;
+  }
+  .flor-hidden {
+    display: block;
+  }
+  .title-filosofia p {
+    font-size: 36px;
+  }
+  .filosofia_bg {
+    margin: 40em 0 0 0;
+  }
+  .about-grid-absolute {
+    bottom: 55px;
+  }
+  .conten-about-hidden {
+    display: block;
+  }
+  .about-hidden-m {
+    display: none;
+  }
+  .grid_team {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+  }
+  .team_ {
+    padding: 0 50px;
+  }
+  .title_team h2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about_title h2 {
+    font-size: 60px;
+  }
+  .about_title p {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+}
