@@ -36,7 +36,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                 resaltando tus cualidades y ayudándote en una transformación holística en todos los niveles.
             </p>
             <div class="btn-read">
-                <a href=" #">+ leer más</a>
+                <a href="<?php echo RUTA_NOSOTROS ?>">+ leer más</a>
             </div>
         </div>
 
