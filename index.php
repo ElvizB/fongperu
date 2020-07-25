@@ -24,6 +24,9 @@ if($partes_ruta[0] == 'fongperu.herokuapp.com'){
       case 'servicios':
         $ruta_elegida = 'vistas/servicios.php';
         break;
+        case 'galeria':
+          $ruta_elegida = 'vistas/galeria.php';
+          break;
         case 'proyeccion-social':
           $ruta_elegida = 'vistas/proyeccion-social.php';
           break;

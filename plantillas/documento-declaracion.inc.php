@@ -22,6 +22,7 @@
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>about/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>galeria/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>servicios/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>proyeccion/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>contacto/index.css" rel="stylesheet">

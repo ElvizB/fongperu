@@ -2,20 +2,16 @@
   padding: 0 20px;
   text-align: center;
 }
-
 .grid_about {
   background: url(../../images/about/icon_flor_about.png) no-repeat top;
   background-size: 300px;
   background-position: bottom;
-}
-.about_title {
 }
 .about_title h2 {
   color: #78a0c9;
   font-family: "Montserrat Bold";
   font-size: 20px;
 }
-
 .about_title p {
   color: #323232;
   font-family: "Frambuesa Book";
@@ -93,6 +89,9 @@
   color: #78a0c9;
   margin-bottom: 0.8em;
 }
+.description_team img {
+  cursor: pointer;
+}
 
 .description_team p {
   font-size: 18px;
@@ -101,6 +100,79 @@
   color: black;
   margin: 0;
   padding: 20px 0;
+}
+
+.description-about {
+  display: grid;
+  height: 100%;
+  align-content: baseline;
+  max-width: 100%;
+  margin: auto;
+  padding: 0px 20px;
+  z-index: 1;
+}
+.description-about h2 {
+  font-family: "Dry Brush";
+  font-size: 60px;
+  color: #6a96dd;
+  text-align: center;
+}
+.description-about p {
+  font-size: 16px;
+  font-family: "Montserrat Regular";
+  color: black;
+  line-height: 26px;
+  text-align: justify;
+}
+.grid-team-modal {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: baseline;
+  background: #e6edf3;
+  padding: 50px 0px 0px;
+  border-radius: 0px 0px 30px 30px;
+}
+.img-team-modal {
+  width: 100%;
+}
+.img-team-modal img {
+  border-radius: 0 0 0 30px;
+  width: 200px;
+}
+
+.desc-team-modal {
+  text-align: initial;
+  padding: 30px 30px;
+}
+.desc-team-modal h4 {
+  font-family: "Montserrat Regular";
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.desc-team-modal h6 {
+  color: black;
+  font-size: 15px;
+  font-family: "Montserrat Regular";
+  line-height: 30px;
+}
+.bg-modal {
+  background: #e6edf3;
+  border-radius: 30px 30px 0 0 !important;
+}
+.modal-body {
+  padding: 0rem;
+}
+
+.modal-dialog .modal-content {
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+.modal-content {
+  background-color: transparent;
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -125,6 +197,19 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .desc-team-modal h4 {
+    text-align: initial;
+  }
+  .img-team-modal img {
+    width: initial;
+  }
+  .grid-team-modal {
+    grid-template-columns: 40% 60%;
+  }
+  .description-about {
+    max-width: 450px;
+    align-content: center;
+  }
   .about_title h2 {
     font-size: 60px;
   }
@@ -154,7 +239,7 @@
     gap: 3em;
   }
   .team_ {
-    padding: 0 50px;
+    padding: 50px 50px;
   }
   .title_team h2 {
     font-size: 50px;
@@ -162,6 +247,21 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .description-about {
+    max-width: 600px;
+    padding: 60px 20px 0px;
+    align-content: baseline;
+    margin: 0px 50px;
+  }
+  .description-about h2 {
+    font-size: 100px;
+    text-align: initial;
+  }
+  .description-about p {
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+  }
   .about_title h2 {
     font-size: 60px;
   }

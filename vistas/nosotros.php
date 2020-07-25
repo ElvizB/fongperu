@@ -6,31 +6,18 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 <section class="header-s">
     <div class="grid-menu-fong">
-        <div class="menu-title-fong">
-            <img src="<?php echo RUTA_IMG?>home/fong-home.png" draggable="false" class="img-fluid" />
-        </div>
-        <div class="menu-fong">
-            <ul class="nav_link_u">
-                <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
-                <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
-                <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
-                <li><a href="<?php echo RUTA_GALERIA ?>"><span>galería</span> </a></li>
-                <li><a href=""><span>blog</span> </a></li>
-                <li><a href="<?php echo RUTA_SOCIAL ?>"><span>proyección social</span> </a></li>
-                <li><a href="<?php echo RUTA_CONTACTO ?>"><span>contacto</span> </a></li>
-            </ul>
-        </div>
+        <?php include_once 'plantillas/navbar_/index.php';  ?>
     </div>
     <div class="grid-home">
 
         <div class="title-welcome">
-            <h2><span>Nosotros</span></h2>
+            <h2><span>CÓNOCENOS</span></h2>
         </div>
 
         <div class="img-home">
-            <img src="<?php echo RUTA_IMG?>servicios/girl-s.png" draggable="false" class="" />
+            <img src="<?php echo RUTA_IMG?>about/girl_n.png" draggable="false" class="" />
         </div>
-        <div class="description-home">
+        <div class="description-about">
             <h2>Nosotros</h2>
             <p>Somos un equipo profesional que te acompaña en cada paso de tu empoderamiento físico, mental y emocional,
                 resaltando tus cualidades y ayudándote en una transformación holística en todos los niveles.
@@ -119,16 +106,114 @@ include_once 'plantillas/documento-declaracion.inc.php';
     </div>
     <div class="grid_team">
         <div class="description_team">
-            <img src="<?php echo RUTA_IMG?>about/t_1.png" draggable="false" class="img-fluid" />
+            <img src="<?php echo RUTA_IMG?>about/t_1.png" draggable="false" class="img-fluid" data-toggle="modal"
+                data-target="#drfong" />
             <p>Dr. Fong</p>
+            <!-- Modal: modalCart -->
+            <div class="modal fade" id="drfong" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+
+                <!-- Change class .modal-sm to change the size of the modal -->
+                <div class="modal-dialog modal-lg" role="document">
+
+                    <div class="modal-content">
+                        <div class="modal-header bg-modal">
+                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="grid-team-modal">
+                                <div class="img-team-modal">
+                                    <img src="<?php echo RUTA_IMG?>about/fong.png" draggable="false" class="" />
+                                </div>
+                                <div class="desc-team-modal">
+                                    <h4>Dr. Victor Barriga Fong</h4>
+                                    <h6>Soy el Dr Fong, cirujano plástico, pero sobretodo un sanador, te invito a que
+                                        conozcas un poco más sobre mí y mi filosofía de trabajo, donde a través del arte
+                                        y la ciencia, podrás experimentar una experiencia única de transformación para
+                                        reinventar y potenciar tu ser</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: modalCart -->
         </div>
         <div class="description_team">
-            <img src="<?php echo RUTA_IMG?>about/t_1.png" draggable="false" class="img-fluid" />
+            <img src="<?php echo RUTA_IMG?>about/t_2.png" draggable="false" class="img-fluid" data-toggle="modal"
+                data-target="#tania" />
             <p>Tania</p>
+            <!-- Modal: modalCart -->
+            <div class="modal fade" id="tania" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+
+                <!-- Change class .modal-sm to change the size of the modal -->
+                <div class="modal-dialog modal-lg" role="document">
+
+                    <div class="modal-content">
+                        <div class="modal-header bg-modal">
+                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="grid-team-modal">
+                                <div class="img-team-modal">
+                                    <img src="<?php echo RUTA_IMG?>about/tania.png" draggable="false" class="" />
+                                </div>
+                                <div class="desc-team-modal">
+                                    <h4>Tania</h4>
+                                    <h6>Soy Tania especialista en masajes para relajarte con y hacerte sentir como en
+                                        casa. </h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: modalCart -->
         </div>
         <div class="description_team">
-            <img src="<?php echo RUTA_IMG?>about/t_1.png" draggable="false" class="img-fluid" />
+            <img src="<?php echo RUTA_IMG?>about/t_3.png" draggable="false" class="img-fluid" data-toggle="modal"
+                data-target="#lupe" />
             <p>Lupe Milla</p>
+            <!-- Modal: modalCart -->
+            <div class="modal fade" id="lupe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+
+                <!-- Change class .modal-sm to change the size of the modal -->
+                <div class="modal-dialog modal-lg" role="document">
+
+                    <div class="modal-content">
+                        <div class="modal-header bg-modal">
+                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="grid-team-modal">
+                                <div class="img-team-modal">
+                                    <img src="<?php echo RUTA_IMG?>about/lupe.png" draggable="false" class="" />
+                                </div>
+                                <div class="desc-team-modal">
+                                    <h4>Lupe Milla</h4>
+                                    <h6>Lupe Milla quien se encarga de superar las expectativas de servicio y atención
+                                        de nuestros clientes</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: modalCart -->
         </div>
     </div>
 </section>

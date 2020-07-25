@@ -6,21 +6,9 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 <section class="header">
     <div class="grid-menu-fong">
-        <div class="menu-title-fong">
-            <img src="<?php echo RUTA_IMG?>home/fong-home.png" draggable="false" class="img-fluid" />
-        </div>
-        <div class="menu-fong">
-            <ul class="nav_link_u">
-                <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
-                <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
-                <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
-                <li><a href="<?php echo RUTA_GALERIA ?>"><span>galería</span> </a></li>
-                <li><a href=""><span>blog</span> </a></li>
-                <li><a href="<?php echo RUTA_SOCIAL ?>"><span>proyección social</span> </a></li>
-                <li><a href="<?php echo RUTA_CONTACTO ?>"><span>contacto</span> </a></li>
-            </ul>
-        </div>
+        <?php include_once 'plantillas/navbar_/index.php';  ?>
     </div>
+
     <div class="grid-home">
 
         <div class="title-welcome">
@@ -127,7 +115,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                     <div class="grid-title-suscribete">
                         <p class="comillas">“</p>
                         <p class="subtitle-suscribete"> Las personas valientes son las más hermosas</p>
-
+                        <p class="comillas rotate_comi">“</p>
                     </div>
                 </div>
                 <img src="<?php echo RUTA_IMG?>home/f-1.png" draggable="false" class="img-fluid" />

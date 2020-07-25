@@ -7,11 +7,12 @@
 
 //rutas de la web
 //https://fongperu.herokuapp.com/
-//http://localhost/cosmo
+//http://localhost/fongperu
 
 define("SERVIDOR", "https://fongperu.herokuapp.com/");
 define("RUTA_NOSOTROS", SERVIDOR."nosotros");
 define("RUTA_SERVICIOS", SERVIDOR."servicios");
+define("RUTA_GALERIA", SERVIDOR."galeria");
 define("RUTA_SOCIAL", SERVIDOR."proyeccion-social");
 define("RUTA_CONTACTO", SERVIDOR."contacto");
 //define("RUTA_CATEGORIA", SERVIDOR."/categoria-2007");

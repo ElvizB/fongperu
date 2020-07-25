@@ -60,7 +60,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .wrapper-slider {
-  max-width: 1400px;
+  max-width: 1000px;
   margin: 0 auto;
   width: 100%;
 }
@@ -206,7 +206,7 @@ button:focus {
   display: grid;
   justify-items: end;
   font-family: "Frambuesa Book";
-  grid-template-columns: 9% 82% auto;
+  grid-template-columns: 10% 83% 7%;
   max-width: 941px;
   color: #848484;
   font-size: 23px;
@@ -302,7 +302,9 @@ button:focus {
 .content-hands {
   text-align: center;
   position: relative;
+  display: none;
 }
+
 .content-img-hands {
   position: absolute;
   width: 100%;
@@ -341,9 +343,7 @@ button:focus {
   z-index: -2;
   margin-top: 3em;
 }
-.content-hands {
-  display: none;
-}
+
 .grid-home {
 }
 .img-home img {
@@ -357,7 +357,7 @@ button:focus {
   max-width: 100%;
   margin: auto;
   padding: 0px 20px;
-  z-index: ;
+  z-index: 1;
 }
 .description-home h2 {
   font-family: "Dry Brush";
@@ -434,6 +434,9 @@ button:focus {
   position: relative;
   z-index: 1;
 }
+.rotate_comi {
+  transform: rotate(180deg);
+}
 
 @media screen and (min-width: 480px) {
   .grid-suscribete-btn {
@@ -442,8 +445,8 @@ button:focus {
     gap: 0.6em;
   }
   .grid-title-suscribete {
-    grid-template-columns: 9% 82% auto;
-    padding: 25px 0px 0px;
+    justify-items: center;
+    padding: 60px 0px 0px;
     font-size: 29px;
   }
   .services {
@@ -458,8 +461,9 @@ button:focus {
     gap: 0.6em;
   }
   .grid-title-suscribete {
+    justify-items: center;
     font-size: 53px;
-    padding: 35px 0px 0px;
+    padding: 70px 0px 0px;
   }
   .comillas {
     font-size: 136px;
@@ -471,7 +475,7 @@ button:focus {
     grid-template-columns: repeat(2, 1fr);
   }
   .services {
-    margin: 0em 0em 30em;
+    margin: 0em 0em 32em;
   }
   .img-home {
     text-align: center;
@@ -484,10 +488,7 @@ button:focus {
   .header {
     margin: 0em 0em 7em;
   }
-  .owl-prev,
-  .owl-next {
-    position: absolute;
-  }
+
   .title-h2 h2 {
     display: none;
     padding: 00px;
@@ -575,13 +576,12 @@ button:focus {
     font-size: 1.6em !important;
   }
   .subtitle-suscribete {
-    padding: 77px 0px 0px;
+    padding: 100px 0px 0px;
   }
 
   .grid-title-suscribete {
     font-size: 66px;
     letter-spacing: 6px;
-    grid-template-columns: 13% 82%;
     margin: auto;
   }
   .comillas {
@@ -604,6 +604,10 @@ button:focus {
   }
 }
 @media screen and (min-width: 1200px) {
+  .owl-prev,
+  .owl-next {
+    position: absolute;
+  }
   .description-home {
     max-width: 600px;
     padding: 120px 20px 0px;
@@ -625,6 +629,17 @@ button:focus {
 }
 
 @media screen and (min-width: 1440px) {
+  .wrapper-slider {
+    max-width: 1270px;
+  }
+  .content-hands {
+    display: block;
+  }
+}
+@media screen and (min-width: 1640px) {
+  .wrapper-slider {
+    max-width: 1400px;
+  }
   .content-hands {
     display: block;
   }
