@@ -69,6 +69,41 @@
 .btn-send-contact:hover {
   color: white;
 }
+.select_form {
+  width: 100%;
+}
+.select_form select {
+  height: 42px;
+  padding: 10px 15px;
+  line-height: 18px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #c6c6c6;
+  -webkit-appearance: none;
+  appearance: none;
+  color: #c6c6c6;
+  font-family: "Montserrat Bold";
+}
+
+.select_form::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -12px;
+  border-top: 8px solid #ccc;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+.select_form select:focus {
+  outline: none;
+}
+
+.select_form option:disabled {
+}
+
 /***************************/
 .content-img-contact {
   display: none;

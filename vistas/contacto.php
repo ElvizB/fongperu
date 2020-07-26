@@ -71,15 +71,16 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <label for="form-cel" class="">TELÉFONO MÓVIL</label>
                         </div>
                         <div class="md-form">
-                            <select name="consultoria" id="consultoria" class="browser-default custom-select ">
-                                <option value="" selected disabled>¿Que tipo de Consultoría?</option>
-                                <option value="Smart Cities">Smart Cities</option>
-                                <option value="Smart Grids">Smart Grids</option>
-                                <option value="Transformacion Digital">Transformación Digital</option>
-                                <option value="Agilidad">Agilidad</option>
-                                <option value="SAP">SAP</option>
-                                <option value="PMO">PMO</option>
-                            </select>
+                            <div class="select_form">
+                                <select name="consultoria" id="consultoria">
+                                    <option value="" selected disabled>ESTOY INTERESAD@ EN</option>
+                                    <option value="Smart Cities">Prueba 1</option>
+                                    <option value="Smart Cities">Prueba 1</option>
+                                    <option value="Smart Cities">Prueba 1</option>
+                                    <option value="Smart Cities">Prueba 1</option>
+
+                                </select>
+                            </div>
                         </div>
 
                         <div class="md-form">
