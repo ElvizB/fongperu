@@ -164,9 +164,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
 </section>
 
 
-<section class="galeria u-padding">
+<section class="galeria">
     <div class="grid-galeria">
         <h2>instagram</h2>
+        <div class="elfsight-app-b4a7ea8d-7658-4af4-a934-7f741284e12d"></div>
     </div>
 </section>
 

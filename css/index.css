@@ -117,6 +117,8 @@ button:focus {
 .grid-galeria h2 {
   font-family: "Dry Brush";
   color: #6a9de4;
+  font-size: 30px;
+  text-align: center;
 }
 
 .suscribete {
@@ -486,6 +488,9 @@ button:focus {
   }
 }
 @media screen and (min-width: 1024px) {
+  .grid-galeria h2 {
+    font-size: 120px;
+  }
   .header {
     margin: 0em 0em 7em;
   }
