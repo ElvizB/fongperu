@@ -19,6 +19,7 @@
 <script type="text/javascript" src="<?php echo RUTA_JS?>owl/owl.carousel.min.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>owl/scritps.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>loading.js"></script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>menu/index.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>app.js"></script>
 <script type="text/javascript">
 new WOW().init();

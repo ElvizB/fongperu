@@ -5,8 +5,31 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 
 <section class="header-s">
-    <div class="grid-menu-fong">
-        <?php include_once 'plantillas/navbar_/index.php';  ?>
+    <div class="menu-hidden">
+        <div class="grid-menu-fong">
+            <?php include_once 'plantillas/navbar_/index.php';  ?>
+        </div>
+    </div>
+    <div class="menu-hidden-m">
+        <div class="grid-menu-fong">
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
+                    <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
+                    <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
+                    <li><a href="<?php echo RUTA_GALERIA ?>"><span>galería</span> </a></li>
+                    <li><a href=""><span>blog</span> </a></li>
+                    <li><a href="<?php echo RUTA_SOCIAL ?>"><span>proyección social</span> </a></li>
+                    <li><a href="<?php echo RUTA_CONTACTO ?>"><span>contacto</span> </a></li>
+                </ul>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+        </div>
     </div>
     <div class="grid-home">
 
@@ -19,14 +42,11 @@ include_once 'plantillas/documento-declaracion.inc.php';
         </div>
         <div class="description-home">
             <h2>Servicios</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ducimus, reprehenderit dolor rerum
-                consequatur fugiat eveniet sequi perspiciatis ab cumque, perferendis accusamus incidunt amet, voluptatem
-                laborum? Quibusdam itaque explicabo vero.
+            <p>Queremos que te sientas armonizada en todo sentido; por eso, dependiendo de lo que necesites te brindamos
+                las diferentes opciones para ayudarte a alcanzar el bienestar integral que tanto buscas, exponer lo que
+                eres y explotar todo tu potencial.
             </p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ducimus, reprehenderit dolor rerum
-                consequatur fugiat eveniet sequi perspiciatis ab cumque, perferendis accusamus incidunt amet, voluptatem
-                laborum? Quibusdam itaque explicabo vero.
-            </p>
+
 
         </div>
 
@@ -41,18 +61,27 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 <section>
     <div class="grid-tab">
-        <ul class="nav nav-tabs md-tabs" id="myTabEx" role="tablist">
+        <ul class="nav nav-tabs md-tabs nav_link_service">
             <li class="nav-item">
-                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-                    aria-controls="pills-home" aria-selected="true">tratamientos faciales </a>
+                <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                    aria-controls="pills-home" aria-selected="true">
+                    <span>tratamientos faciales</span>
+                </a>
             </li>
-            <li class="nav-item">
+            <hr class="barra-oblicua" />
+            <li class=" nav-item">
                 <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                    aria-controls="pills-profile" aria-selected="false">tratamientos corporales </a>
+                    aria-controls="pills-profile" aria-selected="false">
+                    <span>tratamientos corporales</span>
+                </a>
             </li>
+            <hr class="barra-oblicua" />
             <li class="nav-item">
                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-                    aria-controls="pills-contact" aria-selected="false">bienestar</a>
+                    aria-controls="pills-contact" aria-selected="false">
+                    <span>bienestar
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </a>
             </li>
         </ul>
 
@@ -61,7 +90,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 
 
-<section class="service">
+<section class=" service">
     <div class="tab-content" id="myTabContentEx">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <div class="grid-service-item">
@@ -86,8 +115,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Bichectomía</h2>
-                                            <h6>Reducción quirúrgica del exceso de grasa (bolas de bichat) en las
-                                                mejillas, obteniendo un rostro más delgado y definido.</h6>
+                                            <h6>Reducción quirúrgica del exceso de grasa (bolas de
+                                                bichat) en las
+                                                mejillas, obteniendo un rostro más delgado y definido.
+                                            </h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
@@ -128,19 +159,24 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Ácido hialurónico</h2>
-                                            <h6>Es una sustancia que se encuentra de manera natural en nuestro organismo
-                                                que ayuda a mantener la piel hidratada. Este tratamiento estético sirve
-                                                para rellenar las arrugas y depresiones por el envejecimiento prematuro,
+                                            <h6>Es una sustancia que se encuentra de manera natural en
+                                                nuestro organismo
+                                                que ayuda a mantener la piel hidratada. Este tratamiento
+                                                estético sirve
+                                                para rellenar las arrugas y depresiones por el
+                                                envejecimiento prematuro,
                                                 aportando un toque fresco y juvenil al rostro. </h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
                                             <ul class="link_check">
                                                 <li>Es un tratamiento, no cirugía.</li>
-                                                <li>El cuerpo lo asimila de inmediato por ser una sustancia natural.
+                                                <li>El cuerpo lo asimila de inmediato por ser una
+                                                    sustancia natural.
                                                 </li>
                                                 <li>Se realiza en corto tiempo</li>
-                                                <li>Hidrata la piel dándole un toque natural, juvenil y fresco al
+                                                <li>Hidrata la piel dándole un toque natural, juvenil y
+                                                    fresco al
                                                     rostro. </li>
                                             </ul>
                                         </div>
@@ -174,8 +210,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Rinomodelación</h2>
-                                            <h6>La rinomodelación es un tratamiento no invasivo, alternativo a la
-                                                cirugía estética que ayuda a corregir el dorso y la punta de la nariz
+                                            <h6>La rinomodelación es un tratamiento no invasivo,
+                                                alternativo a la
+                                                cirugía estética que ayuda a corregir el dorso y la
+                                                punta de la nariz
                                                 armonizando el conjunto del rostro. </h6>
                                         </div>
                                         <div class="title-beneficio">
@@ -184,7 +222,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                                 <li>Es un tratamiento, no cirugía.</li>
                                                 <li>Es completamente sin dolor.</li>
                                                 <li>Se realiza en corto tiempo.</li>
-                                                <li>Elimina la asimetría e irregularidades de la nariz con resultados
+                                                <li>Elimina la asimetría e irregularidades de la nariz
+                                                    con resultados
                                                     armoniosos y naturales.</li>
                                             </ul>
                                         </div>
@@ -219,11 +258,13 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                         <div class="description-service-modal">
                                             <h2>Blefaroplastía</h2>
                                             <h6>Blefaroplastia inferior:
-                                                Rejuvenece la mirada con la extracción de piel sobrante y las bolsas de
+                                                Rejuvenece la mirada con la extracción de piel sobrante
+                                                y las bolsas de
                                                 grasa debajo de los ojos.
                                             </h6>
                                             <h6>Blefaroplastia superior:
-                                                Ayuda a corregir la caída de los párpados superiores, mejorando tu
+                                                Ayuda a corregir la caída de los párpados superiores,
+                                                mejorando tu
                                                 aspecto facial.
 
                                             </h6>
@@ -266,16 +307,20 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Rinoplastia</h2>
-                                            <h6>Intervención quirúrgica que corrige las proporciones de la nariz, con el
-                                                fin de resolver inconvenientes estéticos y funcionales. </h6>
+                                            <h6>Intervención quirúrgica que corrige las proporciones de
+                                                la nariz, con el
+                                                fin de resolver inconvenientes estéticos y funcionales.
+                                            </h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
                                             <ul class="link_check">
                                                 <li>Intervención quirúrgica de corto tiempo.</li>
-                                                <li>Equilibra las proporciones de la nariz para que se vea armonioso
+                                                <li>Equilibra las proporciones de la nariz para que se
+                                                    vea armonioso
                                                     con todo el rostro. </li>
-                                                <li>En algunos casos ayuda a mejorar el funcionamiento nasal.</li>
+                                                <li>En algunos casos ayuda a mejorar el funcionamiento
+                                                    nasal.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -308,16 +353,20 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Liposucción de papada</h2>
-                                            <h6>Absorción de grasa localizada en área debajo de la barbilla para
-                                                armonizar el cuello y resaltar la línea mandibular. </h6>
+                                            <h6>Absorción de grasa localizada en área debajo de la
+                                                barbilla para
+                                                armonizar el cuello y resaltar la línea mandibular.
+                                            </h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
                                             <ul class="link_check">
                                                 <li>Intervención quirúrgica de corto tiempo.</li>
                                                 <li>Recuperación rápida.</li>
-                                                <li>Te ayuda a definir la parte baja del rostro, dándole un aspecto
-                                                    más suave y refinado del cuello y la línea del mentón</li>
+                                                <li>Te ayuda a definir la parte baja del rostro, dándole
+                                                    un aspecto
+                                                    más suave y refinado del cuello y la línea del
+                                                    mentón</li>
                                                 <li>Resultados inmediatos.</li>
 
                                             </ul>
@@ -352,9 +401,12 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Rejuvecimiento facial/Nanofat</h2>
-                                            <h6>Aplicación de rellenos grasos en distintas partes del rostro para
-                                                contrarrestar los signos de envejecimiento y rellenar los defectos
-                                                faciales, además de restuarar el volumen y la calidad de la piel.</h6>
+                                            <h6>Aplicación de rellenos grasos en distintas partes del
+                                                rostro para
+                                                contrarrestar los signos de envejecimiento y rellenar
+                                                los defectos
+                                                faciales, además de restuarar el volumen y la calidad de
+                                                la piel.</h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
@@ -396,7 +448,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Otoplastia</h2>
-                                            <h6>Procedimiento quirúrgico para corregir las deformidades en la oreja como
+                                            <h6>Procedimiento quirúrgico para corregir las deformidades
+                                                en la oreja como
                                                 microtia u orejas prominentes.</h6>
                                         </div>
                                         <div class="title-beneficio">
@@ -438,8 +491,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Toxina butolínica</h2>
-                                            <h6>Tratamiento ambulatorio comunmente llamado “botox”, aplicado en los
-                                                músculos faciales para mejorar las líneas de expresión y contrarrestar
+                                            <h6>Tratamiento ambulatorio comunmente llamado “botox”,
+                                                aplicado en los
+                                                músculos faciales para mejorar las líneas de expresión y
+                                                contrarrestar
                                                 el envejecimiento.</h6>
                                         </div>
                                         <div class="title-beneficio">
@@ -484,8 +539,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Lipo localizada</h2>
-                                            <h6>Extracción focalizada mediante finas cánulas que se insertan a través de
-                                                pequeñas incisiones en los depósitos grasos situados bajo la piel.</h6>
+                                            <h6>Extracción focalizada mediante finas cánulas que se
+                                                insertan a través de
+                                                pequeñas incisiones en los depósitos grasos situados
+                                                bajo la piel.</h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
@@ -525,13 +582,15 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Lipomarcación</h2>
-                                            <h6>Técnica de lipoescultura que resalta y define los músculos abdominales
+                                            <h6>Técnica de lipoescultura que resalta y define los
+                                                músculos abdominales
                                                 aportando un aspecto atlético y tonificado. </h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
                                             <ul class="link_check">
-                                                <li>Procedimiento quirúrgico con resultados inmediatos.</li>
+                                                <li>Procedimiento quirúrgico con resultados inmediatos.
+                                                </li>
                                                 <li>Elimina la grasa abdominal.</li>
                                                 <li>Luce el vientre plano y marcado.</li>
                                             </ul>
@@ -566,15 +625,18 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Implante mamario</h2>
-                                            <h6>Mejora el volumen y forma de las mamas a través de implantes de silicona
+                                            <h6>Mejora el volumen y forma de las mamas a través de
+                                                implantes de silicona
                                                 para potenciar la figura femenina. </h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
                                             <ul class="link_check">
-                                                <li>Procedimiento quirúrgico con resultados inmediatos.</li>
+                                                <li>Procedimiento quirúrgico con resultados inmediatos.
+                                                </li>
                                                 <li>Luce senos más voluminosos. </li>
-                                                <li>Mejora la forma de tu cuerpo logrando un aspecto natural de tus
+                                                <li>Mejora la forma de tu cuerpo logrando un aspecto
+                                                    natural de tus
                                                     pechos.</li>
                                             </ul>
                                         </div>
@@ -608,9 +670,12 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Levantamiento de glúteos</h2>
-                                            <h6>Tratamiento que a través de una estimulación eléctrica de la fibra
-                                                muscular glútea se consigue dar mayor tonificación al músculo,
-                                                reafirmando y levantando los glúteos dándole la firmeza que buscas.</h6>
+                                            <h6>Tratamiento que a través de una estimulación eléctrica
+                                                de la fibra
+                                                muscular glútea se consigue dar mayor tonificación al
+                                                músculo,
+                                                reafirmando y levantando los glúteos dándole la firmeza
+                                                que buscas.</h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
@@ -650,15 +715,19 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Abdominoplastia</h2>
-                                            <h6>Reconstruye la pared abdominal, retirando la piel y grasa excedente para
-                                                reforzar y resaltar los músculos y marcos óseos para conseguir una
-                                                figura ideal. Además, corrige la diástasis de los rectos.</h6>
+                                            <h6>Reconstruye la pared abdominal, retirando la piel y
+                                                grasa excedente para
+                                                reforzar y resaltar los músculos y marcos óseos para
+                                                conseguir una
+                                                figura ideal. Además, corrige la diástasis de los
+                                                rectos.</h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
                                             <ul class="link_check">
                                                 <li>Elimina la grasa abdominal.</li>
-                                                <li>Luce un perfil abdominal firme, plano y marcado.</li>
+                                                <li>Luce un perfil abdominal firme, plano y marcado.
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -691,14 +760,17 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Genicomastía</h2>
-                                            <h6>Tratamiento enfocado en reducir el agrandamiento de la glándula mamaria
-                                                masculina o acumulo excesivo de grasa mediante exeresis y/o liposucción.
+                                            <h6>Tratamiento enfocado en reducir el agrandamiento de la
+                                                glándula mamaria
+                                                masculina o acumulo excesivo de grasa mediante exeresis
+                                                y/o liposucción.
                                             </h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
                                             <ul class="link_check">
-                                                <li>Proporciona a los hombres un pecho plano y musculoso y recupera tu
+                                                <li>Proporciona a los hombres un pecho plano y musculoso
+                                                    y recupera tu
                                                     silueta varonil.</li>
                                                 <li>Resultados naturales y de larga duración.</li>
                                             </ul>
@@ -733,8 +805,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Carboxiterapia</h2>
-                                            <h6>Tratamiento que consiste en la aplicación de inyecciones de gas (dióxido
-                                                de carbono) por debajo de la piel para mejorar su firmeza, combatir la
+                                            <h6>Tratamiento que consiste en la aplicación de inyecciones
+                                                de gas (dióxido
+                                                de carbono) por debajo de la piel para mejorar su
+                                                firmeza, combatir la
                                                 celulitis, estrías y grasa localizada.
                                             </h6>
                                         </div>
@@ -777,16 +851,20 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Plastia de ciactriz</h2>
-                                            <h6>Cirugía reconstructiva consiste en mejorar la apariencia de las
-                                                cicatrices, retirando la antigua y creando una nueva que busque seguir
-                                                las líneas de tensión de la piel y mejore su aspecto estético.
+                                            <h6>Cirugía reconstructiva consiste en mejorar la apariencia
+                                                de las
+                                                cicatrices, retirando la antigua y creando una nueva que
+                                                busque seguir
+                                                las líneas de tensión de la piel y mejore su aspecto
+                                                estético.
                                             </h6>
                                         </div>
                                         <div class="title-beneficio">
                                             <h4>Beneficios</h4>
                                             <ul class="link_check">
                                                 <li>Mejora paulatina del aspecto cutáneo.</li>
-                                                <li> Se puede realizar en cualquier parte del cuerpo.</li>
+                                                <li> Se puede realizar en cualquier parte del cuerpo.
+                                                </li>
 
                                             </ul>
                                         </div>
@@ -825,8 +903,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Limpieza facial</h2>
-                                            <h6>Utilizada para remover impurezas y células muertas acumuladas en la capa
-                                                superficial de la piel del rostro, revelando luminosidad e hidratación
+                                            <h6>Utilizada para remover impurezas y células muertas
+                                                acumuladas en la capa
+                                                superficial de la piel del rostro, revelando luminosidad
+                                                e hidratación
                                                 en el cutis. </h6>
                                         </div>
 
@@ -860,7 +940,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <div class="grid-service-modal">
                                         <div class="description-service-modal">
                                             <h2>Masajes relajantes</h2>
-                                            <h6>Terapia manual que contribuye a la producción de endorfinas para mejorar
+                                            <h6>Terapia manual que contribuye a la producción de
+                                                endorfinas para mejorar
                                                 el bienestar físico y mental del paciente. </h6>
                                         </div>
 
@@ -889,12 +970,11 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="owl-carousel owl-theme" id="slider-testimonio">
             <div class="item">
                 <div class="grid-testimonio-img">
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ea commodo con illum dolore eu
-                        feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-                        luptatum zzril delenit augue duis olor sit amet, uer adipiscing elit, sndit pra.Lorem ipsum
-                        dolor sit amet, consectetuer adipiscing.
+                    <p>El Dr. Fong y su equipo fueron muy profesionales y atentos a cada una de mis necesidades, me
+                        sentí escuchada, comprendida y protegida. Con sus consejos, cuidados y atenciones lograron
+                        empoderarme para renacer completamente.
                     </p>
-                    <h6>- Camila Torres Sánchez -</h6>
+                    <h6>- Ariana Marcani -</h6>
                 </div>
             </div>
             <div class="item">

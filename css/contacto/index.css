@@ -121,9 +121,31 @@
 }
 .header-c {
   background: url(../../images/contacto/bg_C.png) no-repeat top;
-  margin: 0em 0em 10em;
+  margin: 0em 0em 3em;
   background-position: initial;
   background-size: 100% 69%;
+}
+.description-contact p {
+  font-size: 16px;
+  font-family: "Montserrat Regular";
+  color: black;
+  line-height: 26px;
+  text-align: justify;
+}
+.des-contacto {
+  display: grid;
+  height: 100%;
+  align-content: baseline;
+  max-width: 100%;
+  margin: auto;
+  padding: 0px 20px;
+  z-index: 1;
+}
+.des-contacto h2 {
+  font-family: "Dry Brush";
+  font-size: 60px;
+  color: #87bad2;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -142,8 +164,17 @@
   .content-contacto {
     padding: 10px 20px 0px 0px;
   }
+  .header-c {
+    margin: 0em 0em 5em;
+  }
+  .description-contact p {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 1024px) {
+  .header-c {
+    margin: 0em 0em 5em;
+  }
   .contacto {
     padding: 70px 70px;
   }
@@ -156,6 +187,21 @@
   }
   .header-c {
     background-size: contain;
+  }
+  .description-contact p {
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .des-contacto {
+    max-width: 600px;
+    padding: 120px 20px 0px;
+    align-content: baseline;
+    margin: 0px 50px;
+  }
+  .des-contacto h2 {
+    font-size: 100px;
+    text-align: initial;
   }
 }
 

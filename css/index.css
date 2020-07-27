@@ -345,6 +345,7 @@ button:focus {
 }
 
 .grid-home {
+  padding-top: 8em;
 }
 .img-home img {
   width: 100%;
@@ -545,6 +546,7 @@ button:focus {
     display: grid;
     grid-template-columns: 5% 45% 50%;
     height: 100%;
+    padding-top: 0em;
   }
 
   .content-subcribete {

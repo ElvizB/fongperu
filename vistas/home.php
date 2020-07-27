@@ -5,10 +5,33 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 
 <section class="header">
-    <div class="grid-menu-fong">
-        <?php include_once 'plantillas/navbar_/index.php';  ?>
-    </div>
 
+    <div class="menu-hidden">
+        <div class="grid-menu-fong">
+            <?php include_once 'plantillas/navbar_/index.php';  ?>
+        </div>
+    </div>
+    <div class="menu-hidden-m">
+        <div class="grid-menu-fong">
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
+                    <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
+                    <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
+                    <li><a href="<?php echo RUTA_GALERIA ?>"><span>galería</span> </a></li>
+                    <li><a href=""><span>blog</span> </a></li>
+                    <li><a href="<?php echo RUTA_SOCIAL ?>"><span>proyección social</span> </a></li>
+                    <li><a href="<?php echo RUTA_CONTACTO ?>"><span>contacto</span> </a></li>
+                </ul>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+        </div>
+    </div>
     <div class="grid-home">
 
         <div class="title-welcome">

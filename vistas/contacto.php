@@ -4,8 +4,31 @@ include_once 'plantillas/documento-declaracion.inc.php';
 ?>
 
 <section class="header-c">
-    <div class="grid-menu-fong">
-        <?php include_once 'plantillas/navbar_/index.php';  ?>
+    <div class="menu-hidden">
+        <div class="grid-menu-fong">
+            <?php include_once 'plantillas/navbar_/index.php';  ?>
+        </div>
+    </div>
+    <div class="menu-hidden-m">
+        <div class="grid-menu-fong">
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
+                    <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
+                    <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
+                    <li><a href="<?php echo RUTA_GALERIA ?>"><span>galería</span> </a></li>
+                    <li><a href=""><span>blog</span> </a></li>
+                    <li><a href="<?php echo RUTA_SOCIAL ?>"><span>proyección social</span> </a></li>
+                    <li><a href="<?php echo RUTA_CONTACTO ?>"><span>contacto</span> </a></li>
+                </ul>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+        </div>
     </div>
     <div class="grid-home">
 
@@ -16,13 +39,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="img-home">
             <img src="<?php echo RUTA_IMG?>contacto/girl_c.png" draggable="false" class="" />
         </div>
-        <div class="description-home">
+        <div class="des-contacto">
             <h2>Contacto</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ducimus, reprehenderit dolor rerum
-                consequatur fugiat eveniet sequi perspiciatis ab cumque, perferendis accusamus incidunt amet, voluptatem
-                laborum? Quibusdam itaque explicabo vero.
-            </p>
-            <div class="btn-read">
+
+            <div class="description-contact">
                 <p>Teléfonos: 952 302 613 - 999 933 336</p>
                 <p>E-mail: hola@esteticafong.com</p>
                 <p>Dirección: Av. José Faustino Sánchez Carrión 615</p>
@@ -37,6 +57,18 @@ include_once 'plantillas/documento-declaracion.inc.php';
         </div>
     </div>
 
+</section>
+
+<section class="">
+    <!--Google map-->
+    <div id="map-container-section" class="map-container-section mb-4" style="height: 500px">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3901.3341587807745!2d-77.058187!3d-12.089261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75ed2e1e46f977b7!2sEdificio%20Vertice%2022!5e0!3m2!1ses-419!2spe!4v1595828876998!5m2!1ses-419!2spe"
+            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="">
+            tabindex="0">
+        </iframe>
+    </div>
 </section>
 
 <section class="contacto">

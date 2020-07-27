@@ -5,8 +5,31 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 
 <section class="header-ps">
-    <div class="grid-menu-fong">
-        <?php include_once 'plantillas/navbar_/index.php';  ?>
+    <div class="menu-hidden">
+        <div class="grid-menu-fong">
+            <?php include_once 'plantillas/navbar_/index.php';  ?>
+        </div>
+    </div>
+    <div class="menu-hidden-m">
+        <div class="grid-menu-fong">
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
+                    <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
+                    <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
+                    <li><a href="<?php echo RUTA_GALERIA ?>"><span>galería</span> </a></li>
+                    <li><a href=""><span>blog</span> </a></li>
+                    <li><a href="<?php echo RUTA_SOCIAL ?>"><span>proyección social</span> </a></li>
+                    <li><a href="<?php echo RUTA_CONTACTO ?>"><span>contacto</span> </a></li>
+                </ul>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+        </div>
     </div>
     <div class="grid-home">
 
@@ -17,7 +40,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="img-home">
             <img src="<?php echo RUTA_IMG?>compromiso/men_cs.png" draggable="false" class="" />
         </div>
-        <div class="description-home">
+        <div class="description-cs">
             <h2>Compromiso
                 social</h2>
             <p>
@@ -55,10 +78,21 @@ include_once 'plantillas/documento-declaracion.inc.php';
 <section class="comentarios">
     <div class="grid-comemnt">
         <div class="title-comment">
-            <p>
-                Estoy seguro que cada día es una nueva oportunidad de ser felices y ser mejores personas. Cualquier
-                acción altruista puede cambiar la vida de otra persona.
-            </p>
+            <div>
+                <span class="comillas-pr">“</span>
+            </div>
+            <div class="content-comillas">
+                <p>
+                    Estoy seguro que cada día es una nueva oportunidad de ser felices y ser mejores personas.
+                    Cualquier
+                    acción altruista puede cambiar la vida de otra persona.
+                </p>
+            </div>
+            <div class="comillas-pr2">
+                <span>“</span>
+            </div>
+        </div>
+        <div class="desc_doc">
             <h2>- Dr. Fong -</h2>
         </div>
     </div>
