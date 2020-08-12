@@ -105,7 +105,7 @@
   width: 261px;
 }
 .title-footer p {
-  font-family: "MyriadPro Regular";
+  font-family: "Rotunda Medium";
   text-transform: uppercase;
   color: var(--text-white);
   font-size: 12px;
@@ -115,7 +115,7 @@
 .link-footer ul {
   list-style: none;
   padding: 0;
-  font-family: "Frambuesa Medium";
+  font-family: "Rotunda Light";
   margin: 0;
 }
 .link-footer ul li a {
@@ -133,7 +133,7 @@
   color: var(--text-white);
   font-size: 12px;
   text-align: center;
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Light";
   padding: 20px 0px;
 }
 .derechos-footer p {
@@ -141,9 +141,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .title-footer img {
-    width: 240px;
-  }
   .grid-footer {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;

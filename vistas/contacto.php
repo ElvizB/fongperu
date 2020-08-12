@@ -17,7 +17,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                     <div id="bar2" class="bar"></div>
                     <div id="bar3" class="bar"></div>
                 </div>
-                <ul class="nav" id="nav">
+                <ul class="nav-menu" id="nav">
                     <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
                     <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
                     <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
@@ -43,9 +43,9 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <h2>Contacto</h2>
 
             <div class="description-contact">
-                <p>Teléfonos: 952 302 613 - 999 933 336</p>
-                <p>E-mail: hola@esteticafong.com</p>
-                <p>Dirección: Av. José Faustino Sánchez Carrión 615</p>
+                <p><b>Teléfonos:</b> 952 302 613 - 999 933 336</p>
+                <p><b>E-mail:</b> hola@esteticafong.com</p>
+                <p><b>Dirección:</b> Av. José Faustino Sánchez Carrión 615</p>
                 <p>Int. 803 | Jesús María - Lima, Perú </p>
             </div>
         </div>

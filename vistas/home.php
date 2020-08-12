@@ -19,7 +19,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                     <div id="bar2" class="bar"></div>
                     <div id="bar3" class="bar"></div>
                 </div>
-                <ul class="nav" id="nav">
+                <ul class="nav-menu" id="nav">
                     <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
                     <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
                     <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
@@ -42,12 +42,15 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <img src="<?php echo RUTA_IMG?>home/girl.png" draggable="false" class="" />
         </div>
         <div class="description-home">
-            <h2>Nosotros</h2>
-            <p>Somos un equipo profesional que te acompaña en cada paso de tu empoderamiento físico, mental y emocional,
-                resaltando tus cualidades y ayudándote en una transformación holística en todos los niveles.
-            </p>
-            <div class="btn-read">
-                <a href="<?php echo RUTA_NOSOTROS ?>">+ leer más</a>
+            <div class="u-content-info">
+                <h2>Nosotros</h2>
+                <p>Somos un equipo profesional que te acompaña en cada paso de tu empoderamiento físico, mental y
+                    emocional,
+                    resaltando tus cualidades y ayudándote en una transformación holística en todos los niveles.
+                </p>
+                <div class="btn-read">
+                    <a href="<?php echo RUTA_NOSOTROS ?>">+ leer más</a>
+                </div>
             </div>
         </div>
 
@@ -65,25 +68,53 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="owl-carousel owl-theme" id="slider-service">
             <div class="item">
                 <div class="grid-slider-img">
-                    <img src="<?php echo RUTA_IMG?>home/uno.png" draggable="false" alt="">
+                    <img src="<?php echo RUTA_IMG?>home/slider/1.png" draggable="false" alt="">
+                    <p>REJUVECIMIENTO
+                        FACIAL</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="grid-slider-img">
+                    <img src="<?php echo RUTA_IMG?>home/slider/2.png" draggable="false" alt="">
+                    <p>PÁRPADOS</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="grid-slider-img">
+                    <img src="<?php echo RUTA_IMG?>home/slider/3.png" draggable="false" alt="">
+                    <p>LIPOSUCCIÓN
+                        DE PAPADA</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="grid-slider-img">
+                    <img src="<?php echo RUTA_IMG?>home/slider/4.png" draggable="false" alt="">
+                    <p>TOXÍNA
+                        BUTOLÍNICA</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="grid-slider-img">
+                    <img src="<?php echo RUTA_IMG?>home/slider/5.png" draggable="false" alt="">
                     <p>RINOMODELACIÓN</p>
                 </div>
             </div>
             <div class="item">
                 <div class="grid-slider-img">
-                    <img src="<?php echo RUTA_IMG?>home/dos.png" draggable="false" alt="">
+                    <img src="<?php echo RUTA_IMG?>home/slider/6.png" draggable="false" alt="">
                     <p>OTOPLASTÍA</p>
                 </div>
             </div>
             <div class="item">
                 <div class="grid-slider-img">
-                    <img src="<?php echo RUTA_IMG?>home/tres.png" draggable="false" alt="">
+                    <img src="<?php echo RUTA_IMG?>home/slider/7.png" draggable="false" alt="">
                     <p>GLÚTEOS</p>
                 </div>
             </div>
             <div class="item">
                 <div class="grid-slider-img">
-                    <img src="<?php echo RUTA_IMG?>home/cuatro.png" draggable="false" alt="">
+                    <img src="<?php echo RUTA_IMG?>home/slider/8.png" draggable="false" alt="">
                     <p>ABDOMINOPLASTÍA
                         DE ALTA DEFINICIÓN
                     </p>
@@ -92,13 +123,38 @@ include_once 'plantillas/documento-declaracion.inc.php';
             </div>
             <div class="item">
                 <div class="grid-slider-img">
-                    <img src="<?php echo RUTA_IMG?>home/cinco.png" draggable="false" alt="">
-
+                    <img src="<?php echo RUTA_IMG?>home/slider/9.png" draggable="false" alt="">
                     <p>IMPLANTES
                         MAMARIOS
                     </p>
                 </div>
             </div>
+            <div class="item">
+                <div class="grid-slider-img">
+                    <img src="<?php echo RUTA_IMG?>home/slider/10.png" draggable="false" alt="">
+
+                    <p>LIPOMARCACIÓN
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="grid-slider-img">
+                    <img src="<?php echo RUTA_IMG?>home/slider/11.png" draggable="false" alt="">
+
+                    <p>PLASTIA DE
+                        CICATRIZ
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="grid-slider-img">
+                    <img src="<?php echo RUTA_IMG?>home/slider/12.png" draggable="false" alt="">
+
+                    <p>GENICOMASTÍA
+                    </p>
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -125,6 +181,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <div class="title-service">
                 <h2>servicios</h2>
                 <img src="<?php echo RUTA_IMG?>home/ellos.png" draggable="false" class="img-fluid p-3" />
+                <img src="<?php echo RUTA_IMG?>home/bienestar.png" draggable="false" class="img-fluid p-3" />
             </div>
         </div>
     </div>
@@ -170,6 +227,9 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="elfsight-app-b4a7ea8d-7658-4af4-a934-7f741284e12d"></div>
     </div>
 </section>
+
+
+
 
 <?php
   include_once 'plantillas/footer.php';

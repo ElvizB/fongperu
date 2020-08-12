@@ -9,37 +9,38 @@
   src: url("../fonts/Amanda-Regular.ttf");
 }
 @font-face {
-  font-family: "Frambuesa Medium";
-  src: url("../fonts/Frambuesa-MediumItalic.otf");
-}
-
-@font-face {
-  font-family: "Frambuesa Book";
-  src: url("../fonts/Frambuesa-Book.otf");
-}
-
-@font-face {
-  font-family: "Montserrat Regular";
-  src: url("../fonts/Montserrat-Regular.ttf");
-}
-@font-face {
-  font-family: "Montserrat Bold";
-  src: url("../fonts/Montserrat-Bold.ttf");
-}
-
-@font-face {
-  font-family: "MyriadPro Regular";
-  src: url("../fonts/MyriadPro-Regular.ttf");
-}
-
-@font-face {
   font-family: "Dry Brush";
   src: url("../fonts/Dry-Brush.ttf");
 }
+
 @font-face {
-  font-family: "Frambuesa BoldItalic";
-  src: url("../fonts/Frambuesa-BoldItalic.otf");
+  font-family: "Rotunda Light";
+  src: url("../fonts/Rotunda-Light.otf");
 }
+@font-face {
+  font-family: "Rotunda LightItalic";
+  src: url("../fonts/Rotunda-LightItalic.otf");
+}
+@font-face {
+  font-family: "Rotunda Medium";
+  src: url("../fonts/Rotunda-Medium.otf");
+}
+
+@font-face {
+  font-family: "Rotunda MediumItalic";
+  src: url("../fonts/Rotunda-MediumItalic.otf");
+}
+
+@font-face {
+  font-family: "Rotunda Regular";
+  src: url("../fonts/Rotunda-Regular.otf");
+}
+
+@font-face {
+  font-family: "Rotunda Thin";
+  src: url("../fonts/Rotunda-Thin.otf");
+}
+
 .u-padding {
   padding: 20px 80px;
 }
@@ -86,7 +87,7 @@ body::-webkit-scrollbar-thumb {
 .grid-slider-img p {
   font-size: 18px;
   margin: 0;
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Regular";
   color: #6a9de4;
   margin: 30px 0px 0px;
 }
@@ -135,14 +136,14 @@ button:focus {
   padding: 45px 19px 29px;
   border-radius: 60px 0px;
   width: 100%;
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Regular";
   font-size: 15px;
   font-weight: 700;
   height: 358px;
 }
 .content-subcribete-secondary h2 {
   font-size: 26px;
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   padding: 0px 0px 20px;
 }
 .btn-subcribete {
@@ -207,7 +208,7 @@ button:focus {
 .grid-title-suscribete {
   display: grid;
   justify-items: end;
-  font-family: "Frambuesa Book";
+  font-family: "Rotunda Thin";
   grid-template-columns: 10% 83% 7%;
   max-width: 941px;
   color: #848484;
@@ -246,7 +247,7 @@ button:focus {
   justify-content: center;
 }
 .title-service h2 {
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   font-size: 50px;
   text-transform: uppercase;
   color: white;
@@ -284,8 +285,8 @@ button:focus {
   text-align: center;
 }
 .btn-read a {
-  font-family: "Frambuesa Medium";
-  font-size: 22px;
+  font-family: "Rotunda Light";
+  font-size: 19px;
   color: #6a9de4;
   text-decoration: none;
   position: relative;
@@ -310,7 +311,7 @@ button:focus {
 .content-img-hands {
   position: absolute;
   width: 100%;
-  top: -300px;
+  top: -215px;
 }
 .hidden-t {
   display: none;
@@ -322,7 +323,7 @@ button:focus {
   word-spacing: 2px;
   letter-spacing: 1.2px;
   transform: rotate(180deg);
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   text-transform: uppercase;
   text-align: center;
 }
@@ -330,7 +331,7 @@ button:focus {
   margin: 0;
   position: relative;
   padding-top: 0em;
-  font-size: 25px;
+  font-size: 30px;
 }
 .title-welcome h2::before {
   content: "";
@@ -341,39 +342,17 @@ button:focus {
   position: absolute;
   top: 0;
   transform: rotate(90deg);
-  left: -44px;
+  left: -38px;
   z-index: -2;
   margin-top: 3em;
 }
 
 .grid-home {
-  padding-top: 8em;
+  padding: 8em 20px 0;
 }
 .img-home img {
+  padding: 0 20px 0 0;
   width: 100%;
-  padding: 20px;
-}
-.description-home {
-  display: grid;
-  height: 100%;
-  align-content: baseline;
-  max-width: 100%;
-  margin: auto;
-  padding: 0px 20px;
-  z-index: 1;
-}
-.description-home h2 {
-  font-family: "Dry Brush";
-  font-size: 60px;
-  color: #588c72;
-  text-align: center;
-}
-.description-home p {
-  font-size: 16px;
-  font-family: "Montserrat Regular";
-  color: black;
-  line-height: 26px;
-  text-align: justify;
 }
 
 .content-title-vertical {
@@ -382,7 +361,7 @@ button:focus {
   word-spacing: 2px;
   letter-spacing: 1.2px;
   transform: rotate(180deg);
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   text-transform: uppercase;
   margin-top: -24em;
   display: none;
@@ -402,7 +381,7 @@ button:focus {
 }
 
 .title-h2 h2 {
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   font-size: 25px;
   text-transform: uppercase;
   color: white;
@@ -415,8 +394,6 @@ button:focus {
   transition: 0.5s;
 }
 
-.nav_link_u li a:hover {
-}
 .nav_link_u li a::before {
   content: "";
   position: absolute;
@@ -441,6 +418,27 @@ button:focus {
   transform: rotate(180deg);
 }
 
+.u-content-info {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.u-content-info h2 {
+  font-family: "Dry Brush";
+  font-size: 60px;
+  color: #6a95dc;
+  text-align: center;
+}
+.u-content-info p {
+  font-family: "Rotunda Regular";
+  font-size: 16px;
+  z-index: 1;
+  text-align: justify;
+}
+
 @media screen and (min-width: 480px) {
   .grid-suscribete-btn {
     grid-template-columns: 81% 19%;
@@ -458,6 +456,12 @@ button:focus {
 }
 
 @media screen and (min-width: 768px) {
+  .img-home {
+    text-align: center;
+  }
+  .img-home img {
+    width: initial;
+  }
   .grid-suscribete-btn {
     grid-template-columns: 84% 15%;
     align-items: center;
@@ -480,14 +484,11 @@ button:focus {
   .services {
     margin: 0em 0em 32em;
   }
-  .img-home {
-    text-align: center;
-  }
-  .img-home img {
-    width: 50%;
-  }
 }
 @media screen and (min-width: 1024px) {
+  .img-home img {
+    width: 100%;
+  }
   .grid-galeria h2 {
     font-size: 120px;
   }
@@ -503,6 +504,9 @@ button:focus {
     display: block;
     font-size: 50px;
   }
+  .title-service {
+    align-self: end;
+  }
   .services {
     background: url(../images/home/servicio-banner.png) no-repeat top;
     background-position: right;
@@ -517,23 +521,20 @@ button:focus {
   .title-welcome h2 {
     padding-top: 6em;
   }
-  .img-home img {
-    width: 100%;
-  }
+
   .hidden-t {
     display: block;
   }
   .grid-menu-fong {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-    padding: 60px 100px;
+    padding: 60px 100px 30px;
   }
   .menu-fong ul {
     display: flex;
     padding: 0;
     list-style: none;
-    font-family: "Frambuesa Medium";
+    font-family: "Rotunda LightItalic";
     margin: 0;
   }
   .menu-fong ul li {
@@ -549,9 +550,10 @@ button:focus {
   }
   .grid-home {
     display: grid;
-    grid-template-columns: 5% 45% 50%;
+    grid-template-columns: 5% 40% 48%;
     height: 100%;
     padding-top: 0em;
+    grid-gap: 0em;
   }
 
   .content-subcribete {
@@ -587,7 +589,7 @@ button:focus {
   }
 
   .grid-title-suscribete {
-    font-size: 66px;
+    font-size: 60px;
     letter-spacing: 6px;
     margin: auto;
   }
@@ -601,46 +603,44 @@ button:focus {
     grid-template-columns: repeat(3, 1fr);
     height: 1200px;
   }
-  .description-home {
-    max-width: 450px;
-    align-content: center;
-  }
-  .description-home p {
-    font-size: 16px;
-    line-height: 26px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .owl-prev,
   .owl-next {
     position: absolute;
   }
-  .description-home {
-    max-width: 600px;
-    padding: 120px 20px 0px;
-    align-content: baseline;
-    margin: 0px 50px;
-  }
-  .description-home h2 {
-    font-size: 100px;
+  .u-content-info h2 {
+    font-size: 115px;
     text-align: initial;
   }
-  .description-home p {
-    font-size: 19px;
-    text-align: left;
-    line-height: 36px;
-  }
+
   .btn-read {
     text-align: initial;
+    padding-bottom: 10em;
+  }
+  .u-content-info p {
+    font-size: 22px;
+  }
+  .content-hands {
+    display: block;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .u-content-info {
+    max-width: 560px;
+  }
+  .img-home img {
+    width: initial;
+  }
+  .img-home {
+    text-align: end;
+  }
+  .grid-home {
+    grid-gap: 4em;
+  }
   .wrapper-slider {
     max-width: 1270px;
-  }
-  .content-hands {
-    display: block;
   }
 }
 @media screen and (min-width: 1640px) {

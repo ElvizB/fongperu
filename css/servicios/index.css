@@ -14,7 +14,7 @@
 .content-service-item p {
   margin: 0;
   font-size: 20px;
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   text-align: center;
 }
 .content-service-item img {
@@ -43,7 +43,7 @@
 .content-img-flor {
   position: absolute;
   width: 100%;
-  top: -550px;
+  top: -300px;
   display: none;
 }
 
@@ -56,10 +56,11 @@
   font-family: "Montserrat Regular";
   font-size: 16px;
   margin-bottom: 2em;
+  font-family: "Rotunda Light";
 }
 .grid-testimonio-img h6 {
-  font-family: "Frambuesa BoldItalic";
-  font-size: 21px;
+  font-family: "Rotunda MediumItalic";
+  font-size: 22px;
 }
 .title-test h2 {
   font-family: "Dry Brush";
@@ -82,28 +83,32 @@
   padding: 30px 70px 70px;
 }
 .description-service-modal h2 {
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Regular";
+  font-weight: bold;
   text-align: center;
   font-size: 35px;
   margin-bottom: 1em;
   color: #6a93da;
 }
 .description-service-modal h6 {
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Light";
   font-size: 16px;
   line-height: 33px;
-  margin-bottom: 4em;
 }
 .title-beneficio h4 {
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   font-size: 20px;
+}
+.title-beneficio {
+  padding-top: 3em;
 }
 .link_check {
   padding-left: 1.3em;
   list-style-image: url(./../../images/flecha.PNG);
   font-size: 15px;
   color: black;
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Light";
+  line-height: 30px;
 }
 .close {
   opacity: 1;
@@ -114,7 +119,7 @@
   color: black;
   text-decoration: none;
   transition: 0.5s;
-  font-family: "Frambuesa Medium";
+  font-family: "Rotunda LightItalic";
   font-size: 23px;
   padding: 0 0;
   margin-bottom: 1em;
@@ -151,6 +156,7 @@
   background: url(../../images/hover2.png);
   background-repeat: no-repeat;
   background-position: center;
+  font-weight: bold;
 }
 .nav-tabs {
   border-bottom: transparent;
@@ -169,6 +175,32 @@
 .nav_link_service li {
   text-align: center;
   width: 100%;
+}
+/************************************/
+
+.content-team-s {
+  position: relative;
+  overflow: hidden;
+}
+.content-team-title-s img {
+  cursor: pointer;
+}
+.content-team-s:hover .content-team-title-s {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+}
+
+.content-team-s .content-team-title-s {
+  position: absolute;
+  left: 0%;
+  top: -100%;
+  color: #fff;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {

@@ -32,7 +32,7 @@
 }
 .md-form label {
   color: #c6c6c6;
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   font-size: 16px;
 }
 .md-form input[type="text"]:focus:not([readonly]) + label {
@@ -44,7 +44,7 @@
 }
 .form-control {
   color: #78a1ca;
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   font-size: 14px;
 }
 
@@ -62,7 +62,7 @@
   width: 100%;
   border-radius: initial;
   font-size: 16px;
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
   letter-spacing: 1px;
   margin: 0;
 }
@@ -83,7 +83,7 @@
   -webkit-appearance: none;
   appearance: none;
   color: #c6c6c6;
-  font-family: "Montserrat Bold";
+  font-family: "Rotunda Medium";
 }
 
 .select_form::after {
@@ -116,7 +116,7 @@
 .content-img-piedra {
   position: absolute;
   width: 100%;
-  top: -450px;
+  top: -280px;
   display: none;
 }
 .header-c {
@@ -127,24 +127,26 @@
 }
 .description-contact p {
   font-size: 16px;
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Thin";
   color: black;
   line-height: 26px;
   text-align: justify;
 }
+b,
+strong {
+  font-weight: bold;
+}
 .des-contacto {
   display: grid;
   height: 100%;
-  align-content: baseline;
+  align-content: center;
   max-width: 100%;
-  margin: auto;
-  padding: 0px 20px;
   z-index: 1;
 }
 .des-contacto h2 {
   font-family: "Dry Brush";
   font-size: 60px;
-  color: #87bad2;
+  color: #86b9d1;
   text-align: center;
 }
 
@@ -194,13 +196,11 @@
 }
 @media screen and (min-width: 1024px) {
   .des-contacto {
-    max-width: 600px;
-    padding: 120px 20px 0px;
-    align-content: baseline;
-    margin: 0px 50px;
+    max-width: 560px;
+    padding-bottom: 5em;
   }
   .des-contacto h2 {
-    font-size: 100px;
+    font-size: 115px;
     text-align: initial;
   }
 }

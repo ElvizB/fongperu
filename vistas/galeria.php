@@ -18,7 +18,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                     <div id="bar2" class="bar"></div>
                     <div id="bar3" class="bar"></div>
                 </div>
-                <ul class="nav" id="nav">
+                <ul class="nav-menu" id="nav">
                     <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
                     <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
                     <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
@@ -43,8 +43,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
         </div>
         <div class="description-galery">
             <h2>Galería</h2>
-            <p>Estas fotografías muestran algunas experiencias de pacientes que lograron conectarse con ellos mismos,
-                empoderarse y cambiar sus vidas para lograr sus objetivos y sueños.
+            <p>
+                Queremos que te sientas armonizada en todo sentido; por eso, dependiendo de lo que necesites te
+                brindamos las diferentes opciones que tenemos para ayudarte a alcanzar el bienestar integral que tanto
+                buscas, exponer lo que eres y explotar todo tu potencial
             </p>
         </div>
 
@@ -89,36 +91,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
             </div>
             <!-- Modal: modalCart -->
         </div>
-        <div class="img-galeria p-4">
-            <img src="<?php echo RUTA_IMG?>galeria/g_2.png" draggable="false" class="img-fluid" data-toggle="modal"
-                data-target="#g_2" />
-            <p>Nombre</p>
-            <!-- Modal: modalCart -->
-            <div class="modal fade" id="g_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                aria-hidden="true">
 
-                <!-- Change class .modal-sm to change the size of the modal -->
-                <div class="modal-dialog modal-lg" role="document">
-
-                    <div class="modal-content">
-                        <div class="modal-header bg-modal">
-                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="img_galaria_modal">
-                                <img src="<?php echo RUTA_IMG?>galeria/g_2_z.png" draggable="false"
-                                    class="img-fluid p-4" />
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- Modal: modalCart -->
-        </div>
         <div class="img-galeria p-4">
             <img src="<?php echo RUTA_IMG?>galeria/g_3.png" draggable="false" class="img-fluid" data-toggle="modal"
                 data-target="#g_3" />

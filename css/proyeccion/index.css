@@ -15,13 +15,13 @@
 
 .title_social h2 {
   font-size: 30px;
-  color: #78a0c9;
-  font-family: "Montserrat Regular";
+  color: #789fc8;
+  font-family: "Rotunda Medium";
   font-weight: bold;
   margin-bottom: 0.7em;
 }
 .title_social p {
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Regular";
   font-size: 16px;
   color: black;
   text-align: justify;
@@ -48,8 +48,6 @@
 .title-comment {
   text-align: center;
   padding: 40px 0 0;
-  display: grid;
-  grid-template-columns: 10% 80% 10%;
 }
 .comillas-pr {
   font-family: "Amanda Regular";
@@ -69,7 +67,7 @@
   padding: 0 0px 0 9px;
 }
 .title-comment p {
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Regular";
   font-size: 19px;
 }
 
@@ -78,7 +76,7 @@
   font-size: 25px;
 }
 .desc_doc h2 {
-  font-family: "Frambuesa BoldItalic";
+  font-family: "Rotunda MediumItalic";
   font-size: 25px;
   text-align: center;
 }
@@ -86,24 +84,27 @@
 .description-cs {
   display: grid;
   height: 100%;
-  align-content: baseline;
+  align-content: center;
   max-width: 100%;
-  margin: auto;
-  padding: 0px 20px;
   z-index: 1;
 }
 .description-cs h2 {
   font-family: "Dry Brush";
   font-size: 60px;
-  color: #87bad2;
+  color: #86b9d1;
   text-align: center;
 }
 .description-cs p {
   font-size: 16px;
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Regular";
   color: black;
   line-height: 26px;
   text-align: justify;
+}
+.content-img-heart {
+  position: absolute;
+  width: 100%;
+  top: -324px;
 }
 
 @media screen and (min-width: 768px) {
@@ -140,7 +141,6 @@
     font-size: 45px;
   }
   .title-comment p {
-    font-family: "Montserrat Regular";
     font-size: 25px;
   }
   .title-comment {
@@ -152,17 +152,15 @@
 }
 @media screen and (min-width: 1200px) {
   .description-cs {
-    max-width: 600px;
-    padding: 120px 20px 0px;
-    align-content: baseline;
-    margin: 0px 50px;
+    max-width: 560px;
+    padding-bottom: 10em;
   }
   .description-cs h2 {
-    font-size: 100px;
+    font-size: 115px;
     text-align: initial;
   }
   .description-cs p {
-    font-size: 19px;
+    font-size: 22px;
     text-align: left;
     line-height: 36px;
   }

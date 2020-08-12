@@ -18,7 +18,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                     <div id="bar2" class="bar"></div>
                     <div id="bar3" class="bar"></div>
                 </div>
-                <ul class="nav" id="nav">
+                <ul class="nav-menu" id="nav">
                     <li><a href="<?php echo SERVIDOR ?>"><span>home</span> </a></li>
                     <li><a href="<?php echo RUTA_NOSOTROS ?>"><span>nosotros</span> </a></li>
                     <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
@@ -44,15 +44,13 @@ include_once 'plantillas/documento-declaracion.inc.php';
         </div>
         <div class="description-about">
             <h2>Nosotros</h2>
-            <p>Somos un equipo profesional que te acompaña en cada paso de tu empoderamiento físico, mental y emocional,
-                resaltando tus cualidades y ayudándote en una transformación holística en todos los niveles.
-            </p>
-            <p>Velamos por tu bienestar integral dándote el espacio y la oportunidad de conectarte con quien eres en
-                esencia, equilibrando lo que eres con lo que quieres ser.
+            <p>Somos un equipo profesional que vela por tu bienestar integral dándote el espacio y la oportunidad para
+                conectarte con quien eres en esencia, a nivel mental y emocional para reflejarlo en lo físico.
             </p>
             <p>
-                A través de nuestra experiencia podrás obtener un experiencia única de transformación para reinventarte
-                y potenciar tu esencia y ser. Nuestra meta es reflejar todo el potencial que llevas dentro.
+                Con nuestra ayuda podrás obtener una experiencia única de transformación para reinventarte y resaltar
+                tus cualidades. Nuestra meta es sacar a la luz todo el potencial que llevas dentro, de tal manera que
+                puedas encontrar la seguridad para empoderarte.
             </p>
 
         </div>
@@ -157,10 +155,35 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                 </div>
                                 <div class="desc-team-modal">
                                     <h4>Dr. Victor Barriga Fong</h4>
-                                    <h6>Soy el Dr Fong, cirujano plástico, pero sobretodo un sanador, te invito a que
-                                        conozcas un poco más sobre mí y mi filosofía de trabajo, donde a través del arte
-                                        y la ciencia, podrás experimentar una experiencia única de transformación para
-                                        reinventar y potenciar tu ser</h6>
+                                    <h6>
+                                        Soy el Dr. Fong, cirujano plástico pero sobretodo sanador, en donde a través del
+                                        arte y la ciencia, tendrás una experiencia única de transformación. Mi filosofía
+                                        de trabajo es que a través de tus cualidades puedas reinventarte y potenciar
+                                        todo tu ser tanto en el plano físico, como el mental y espiritual.
+                                    </h6>
+                                    <h6>
+                                        Quiero que te sientas seguro/a con mi trabajo y mi experiencia; por eso, he
+                                        dedicado gran parte de mi tiempo para mi formación profesional y así conocer las
+                                        últimas técnicas sobre la cirugía estética en Perú y en el mundo.
+                                    </h6>
+                                    <h6>
+                                        He participado en diferentes certificaciones nacionales como: “El congreso
+                                        internacional de Medicina Estética Avance Tecnológico y Láser” (Peruesthetic
+                                        Internacional), “Simposio Internacional de avances en Cirugía Plástica” (H.N.E.
+                                        Rebagliati Martins), “Congreso Mundial de Dermatología Cosmética” (PeruDerm y la
+                                        Academia Internacional de Dermatología Cosmética), entre otros; e
+                                        internacionales como: “Mini Simposio de Rejuvecimiento Facial” (Louisiana, USA),
+                                        “Seguridad y Eficacia en Procesamiento de Grasa, Fracción Vascular Estromal de
+                                        Tejido Adiposo, Plasma Rico en Plaquetas, Nano Fat e Injertos Grasos en Cara,
+                                        Manos y Estimulación Folicular” (Louisiana, USA), “Actualizaciones Prácticas en
+                                        Cirugía Estética de Cara y Cuerpo” (Florida, USA), “Mantenimiento de Certificado
+                                        en Cirugía Plástica - Abdominoplastía” (Florida, USA), entre otros.
+                                    </h6>
+                                    <h6>
+                                        Estoy comprometido con mis pacientes, por eso sigo las últimas tendencias e
+                                        innovaciones sobre cirugía estética y bienestar saludable, para que ustedes
+                                        puedan seguir fortaleciéndose y empoderándose
+                                    </h6>
                                 </div>
                             </div>
                         </div>
@@ -195,8 +218,16 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                 </div>
                                 <div class="desc-team-modal">
                                     <h4>Tania</h4>
-                                    <h6>Soy Tania especialista en masajes para relajarte con y hacerte sentir como en
-                                        casa. </h6>
+                                    <h6>
+                                        Soy Tania especialista en cuidar y relucir tu belleza a través de nuestros
+                                        tratamientos y masajes.
+                                    </h6>
+                                    <h6>
+
+                                        Con delicadeza y experiencia realizo los masajes, que te ayudarán a botar todos
+                                        esas pensamientos negativos y dolores. Además, podrás relajarte e interiorizar
+                                        todos tus cualidades para que puedas potenciarlos.
+                                    </h6>
                                 </div>
                             </div>
                         </div>
@@ -231,8 +262,14 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                 </div>
                                 <div class="desc-team-modal">
                                     <h4>Lupe Milla</h4>
-                                    <h6>Lupe Milla quien se encarga de superar las expectativas de servicio y atención
-                                        de nuestros clientes</h6>
+                                    <h6>
+                                        Soy Lupe, asistente del Dr. Fong y estoy aquí para acompañarte en cada paso de
+                                        tu transformación y tengas la seguridad de que todo saldrá como lo esperabas
+                                    </h6>
+                                    <h6>
+                                        Llevo más de cinco años de experiencia en este trabajo y estoy segura que con la
+                                        destreza del Dr. Fong y mi atención te ayudaremos a reinventarte.
+                                    </h6>
                                 </div>
                             </div>
                         </div>

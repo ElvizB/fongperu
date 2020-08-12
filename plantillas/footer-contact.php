@@ -22,7 +22,6 @@
                     <img src="<?php echo RUTA_IMG?>footer/fb.png" draggable="false" />
                     <img src="<?php echo RUTA_IMG?>footer/ig.png" draggable="false" />
                     <img src="<?php echo RUTA_IMG?>footer/email.png" draggable="false" />
-                    <img src="<?php echo RUTA_IMG?>footer/ln.png" draggable="false" />
                 </div>
                 <div>
                     <input type="text">

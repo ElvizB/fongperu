@@ -21,23 +21,23 @@
 #bar3 {
   transform: translateY(4px);
 }
-.nav li a {
+.nav-menu li a {
   color: black;
   text-decoration: none;
   font-family: "Frambuesa Medium";
   font-size: 16px;
 }
-.nav li:hover {
+.nav-menu li:hover {
   letter-spacing: 5px;
 }
-.nav li a:hover {
+.nav-menu li a:hover {
   font-weight: bold;
 }
-.nav li {
+.nav-menu li {
   list-style: none;
   padding: 16px 0;
 }
-.nav {
+.nav-menu {
   padding: 0;
   margin: 0 20px;
   transition: 1s ease;

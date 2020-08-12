@@ -10,7 +10,7 @@
         <li><a href="<?php echo RUTA_SERVICIOS ?>"><span>servicios</span> </a></li>
         <li><a href="<?php echo RUTA_GALERIA ?>"><span>galería</span> </a></li>
         <li><a href=""><span>blog</span> </a></li>
-        <li><a href="<?php echo RUTA_SOCIAL ?>"><span>proyección social</span> </a></li>
+        <li><a href="<?php echo RUTA_SOCIAL ?>"><span>compromiso social</span> </a></li>
         <li><a href="<?php echo RUTA_CONTACTO ?>"><span>contacto</span> </a></li>
     </ul>
 </div>

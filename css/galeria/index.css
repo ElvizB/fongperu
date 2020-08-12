@@ -6,26 +6,24 @@
 .content-img-rama {
   position: absolute;
   width: 100%;
-  top: -530px;
+  top: -380px;
 }
 .description-galery {
   display: grid;
   height: 100%;
   align-content: baseline;
   max-width: 100%;
-  margin: auto;
-  padding: 0px 20px;
   z-index: 1;
 }
 .description-galery h2 {
   font-family: "Dry Brush";
   font-size: 60px;
-  color: #78a0c9;
+  color: #789fc8;
   text-align: center;
 }
 .description-galery p {
   font-size: 16px;
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Regular";
   color: black;
   line-height: 26px;
   text-align: justify;
@@ -43,7 +41,7 @@
   grid-row-gap: 0em;
 }
 .grid_galeria p {
-  font-family: "Montserrat Regular";
+  font-family: "Rotunda Regular";
   font-weight: bold;
   font-size: 25px;
   margin: 0;
@@ -60,7 +58,6 @@
 
 @media screen and (min-width: 1024px) {
   .description-galery {
-    max-width: 450px;
     align-content: center;
   }
   .description-galery p {
@@ -69,7 +66,7 @@
   }
   .grid_galeria {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     max-width: 1440px;
     grid-row-gap: 0em;
   }
@@ -77,29 +74,25 @@
 
 @media screen and (min-width: 1200px) {
   .description-galery {
-    max-width: 600px;
-    padding: 120px 20px 0px;
-    align-content: baseline;
-    margin: 0px 50px;
+    max-width: 560px;
   }
   .description-galery h2 {
-    font-size: 100px;
+    font-size: 115px;
     text-align: initial;
   }
   .description-galery p {
-    font-size: 19px;
-    text-align: left;
+    font-size: 22px;
     line-height: 36px;
+  }
+  .img-home img {
+    padding: 0 0 0 0;
+  }
+  .content-rama {
+    display: block;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .content-rama {
-    display: block;
-  }
 }
 @media screen and (min-width: 1640px) {
-  .content-rama {
-    display: block;
-  }
 }
