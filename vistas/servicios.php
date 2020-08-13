@@ -104,7 +104,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     class="img-fluid p-3" data-toggle="modal" data-target="#f_1" />
                             </div>
                             <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios /faciales/f_uno.png" draggable="false"
+                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_uno.png" draggable="false"
                                     class="img-fluid p-3" data-toggle="modal" data-target="#f_1" />
                                 <p>Bichectomía </p>
                             </div>
