@@ -28,8 +28,14 @@
   line-height: 26px;
   text-align: justify;
 }
-.img-galeria img {
+.imgzoom {
   cursor: zoom-in;
+  padding-bottom: 1.5em;
+}
+.grid-video {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
 }
 
 .grid_galeria {
@@ -45,7 +51,6 @@
   font-weight: bold;
   font-size: 25px;
   margin: 0;
-  padding: 20px 0px;
 }
 
 .img_galaria_modal {

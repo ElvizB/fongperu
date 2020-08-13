@@ -196,7 +196,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="description_team">
             <img src="<?php echo RUTA_IMG?>about/t_2.png" draggable="false" class="img-fluid" data-toggle="modal"
                 data-target="#tania" />
-            <p>Tania</p>
+            <p>Tania Tapullima</p>
             <!-- Modal: modalCart -->
             <div class="modal fade" id="tania" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                 aria-hidden="true">
@@ -217,7 +217,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                     <img src="<?php echo RUTA_IMG?>about/tania.png" draggable="false" class="" />
                                 </div>
                                 <div class="desc-team-modal">
-                                    <h4>Tania</h4>
+                                    <h4>Tania Tapullima</h4>
                                     <h6>
                                         Soy Tania especialista en cuidar y relucir tu belleza a través de nuestros
                                         tratamientos y masajes.

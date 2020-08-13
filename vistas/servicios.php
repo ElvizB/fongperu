@@ -43,7 +43,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="description-home">
             <div class="u-content-info">
                 <h2>Servicios</h2>
-                <p>Queremos que te sientas armonizada en todo sentido; por eso, dependiendo de lo que necesites te
+                <p>Queremos que te sientas armonizado/a en todo sentido; por eso, dependiendo de lo que necesites te
                     brindamos
                     las diferentes opciones para ayudarte a alcanzar el bienestar integral que tanto buscas, exponer lo
                     que
@@ -97,56 +97,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="tab-content" id="myTabContentEx">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="grid-service-item">
-                    <div class="content-team-s">
-                        <div class="content-team-img-s proyect-item-s">
-                            <div class="content-team-title-s">
-                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_1hover.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_1" />
-                            </div>
-                            <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_uno.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_1" />
-                                <p>Bichectomía </p>
-                            </div>
-                            <!-- Modal: modalCart -->
-                            <div class="modal fade" id="f_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                                aria-hidden="true">
 
-                                <!-- Change class .modal-sm to change the size of the modal -->
-                                <div class="modal-dialog modal-lg" role="document">
-                                    <div class="modal-content">
-                                        <div class="bg-modal-service">
-                                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="grid-service-modal">
-                                                <div class="description-service-modal">
-                                                    <h2>Bichectomía</h2>
-                                                    <h6>Reducción quirúrgica del exceso de grasa (bolas de
-                                                        bichat) en las
-                                                        mejillas, obteniendo un rostro más delgado y definido.
-                                                    </h6>
-                                                </div>
-                                                <div class="title-beneficio">
-                                                    <h4>Beneficios</h4>
-                                                    <ul class="link_check">
-                                                        <li>Intervención quirúrgica mínimamente invasiva.</li>
-                                                        <li>Ayuda definir los pómulos.</li>
-                                                        <li>Su resultado es permanente.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal: modalCart -->
-                        </div>
-                    </div>
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
@@ -205,19 +156,20 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <!-- Modal: modalCart -->
                         </div>
                     </div>
+
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
-                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_3hover.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_3" />
+                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_1hover.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_1" />
                             </div>
                             <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_3.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_3" />
-                                <p>Rinomodelación </p>
+                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_uno.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_1" />
+                                <p>Bichectomía </p>
                             </div>
                             <!-- Modal: modalCart -->
-                            <div class="modal fade" id="f_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                            <div class="modal fade" id="f_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                                 aria-hidden="true">
 
                                 <!-- Change class .modal-sm to change the size of the modal -->
@@ -232,22 +184,18 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                         <div class="modal-body">
                                             <div class="grid-service-modal">
                                                 <div class="description-service-modal">
-                                                    <h2>Rinomodelación</h2>
-                                                    <h6>La rinomodelación es un tratamiento no invasivo,
-                                                        alternativo a la
-                                                        cirugía estética que ayuda a corregir el dorso y la
-                                                        punta de la nariz
-                                                        armonizando el conjunto del rostro. </h6>
+                                                    <h2>Bichectomía</h2>
+                                                    <h6>Reducción quirúrgica del exceso de grasa (bolas de
+                                                        bichat) en las
+                                                        mejillas, obteniendo un rostro más delgado y definido.
+                                                    </h6>
                                                 </div>
                                                 <div class="title-beneficio">
                                                     <h4>Beneficios</h4>
                                                     <ul class="link_check">
-                                                        <li>Es un tratamiento, no cirugía.</li>
-                                                        <li>Es completamente sin dolor.</li>
-                                                        <li>Se realiza en corto tiempo.</li>
-                                                        <li>Elimina la asimetría e irregularidades de la nariz
-                                                            con resultados
-                                                            armoniosos y naturales.</li>
+                                                        <li>Intervención quirúrgica mínimamente invasiva.</li>
+                                                        <li>Ayuda definir los pómulos.</li>
+                                                        <li>Su resultado es permanente.</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -259,6 +207,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <!-- Modal: modalCart -->
                         </div>
                     </div>
+
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
@@ -316,59 +265,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <!-- Modal: modalCart -->
                         </div>
                     </div>
-                    <div class="content-team-s">
-                        <div class="content-team-img-s proyect-item-s">
-                            <div class="content-team-title-s">
-                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_5hover.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_5" />
-                            </div>
-                            <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_5.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_5" />
-                                <p>Rinoplastía </p>
-                            </div>
-                            <!-- Modal: modalCart -->
-                            <div class="modal fade" id="f_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                                aria-hidden="true">
 
-                                <!-- Change class .modal-sm to change the size of the modal -->
-                                <div class="modal-dialog modal-lg" role="document">
-                                    <div class="modal-content">
-                                        <div class="bg-modal-service">
-                                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="grid-service-modal">
-                                                <div class="description-service-modal">
-                                                    <h2>Rinoplastia</h2>
-                                                    <h6>Intervención quirúrgica que corrige las proporciones de
-                                                        la nariz, con el
-                                                        fin de resolver inconvenientes estéticos y funcionales.
-                                                    </h6>
-                                                </div>
-                                                <div class="title-beneficio">
-                                                    <h4>Beneficios</h4>
-                                                    <ul class="link_check">
-                                                        <li>Intervención quirúrgica de corto tiempo.</li>
-                                                        <li>Equilibra las proporciones de la nariz para que se
-                                                            vea armonioso
-                                                            con todo el rostro. </li>
-                                                        <li>En algunos casos ayuda a mejorar el funcionamiento
-                                                            nasal.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal: modalCart -->
-                        </div>
-                    </div>
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
@@ -424,6 +321,58 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <!-- Modal: modalCart -->
                         </div>
                     </div>
+
+                    <div class="content-team-s">
+                        <div class="content-team-img-s proyect-item-s">
+                            <div class="content-team-title-s">
+                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_8hover.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_8" />
+                            </div>
+                            <div class="content-service-item">
+                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_8.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_8" />
+                                <p>Otoplastia</p>
+                            </div>
+                            <!-- Modal: modalCart -->
+                            <div class="modal fade" id="f_8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                aria-hidden="true">
+
+                                <!-- Change class .modal-sm to change the size of the modal -->
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="bg-modal-service">
+                                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="grid-service-modal">
+                                                <div class="description-service-modal">
+                                                    <h2>Otoplastia</h2>
+                                                    <h6>Procedimiento quirúrgico para corregir las deformidades
+                                                        en la oreja como
+                                                        microtia u orejas prominentes.</h6>
+                                                </div>
+                                                <div class="title-beneficio">
+                                                    <h4>Beneficios</h4>
+                                                    <ul class="link_check">
+                                                        <li>Intervención quirúrgica mínimamente invasiva.</li>
+                                                        <li>Recuperación rápida.</li>
+                                                        <li>Armoniza ambas orejas con tu rostro. </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal: modalCart -->
+                        </div>
+                    </div>
+
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
@@ -478,19 +427,20 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <!-- Modal: modalCart -->
                         </div>
                     </div>
+
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
-                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_8hover.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_8" />
+                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_3hover.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_3" />
                             </div>
                             <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_8.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_8" />
-                                <p>Otoplastia</p>
+                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_3.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_3" />
+                                <p>Rinomodelación </p>
                             </div>
                             <!-- Modal: modalCart -->
-                            <div class="modal fade" id="f_8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                            <div class="modal fade" id="f_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                                 aria-hidden="true">
 
                                 <!-- Change class .modal-sm to change the size of the modal -->
@@ -505,18 +455,22 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                         <div class="modal-body">
                                             <div class="grid-service-modal">
                                                 <div class="description-service-modal">
-                                                    <h2>Otoplastia</h2>
-                                                    <h6>Procedimiento quirúrgico para corregir las deformidades
-                                                        en la oreja como
-                                                        microtia u orejas prominentes.</h6>
+                                                    <h2>Rinomodelación</h2>
+                                                    <h6>La rinomodelación es un tratamiento no invasivo,
+                                                        alternativo a la
+                                                        cirugía estética que ayuda a corregir el dorso y la
+                                                        punta de la nariz
+                                                        armonizando el conjunto del rostro. </h6>
                                                 </div>
                                                 <div class="title-beneficio">
                                                     <h4>Beneficios</h4>
                                                     <ul class="link_check">
-                                                        <li>Intervención quirúrgica mínimamente invasiva.</li>
-                                                        <li>Recuperación rápida.</li>
-                                                        <li>Armoniza ambas orejas con tu rostro. </li>
-
+                                                        <li>Es un tratamiento, no cirugía.</li>
+                                                        <li>Es completamente sin dolor.</li>
+                                                        <li>Se realiza en corto tiempo.</li>
+                                                        <li>Elimina la asimetría e irregularidades de la nariz
+                                                            con resultados
+                                                            armoniosos y naturales.</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -528,6 +482,61 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <!-- Modal: modalCart -->
                         </div>
                     </div>
+
+                    <div class="content-team-s">
+                        <div class="content-team-img-s proyect-item-s">
+                            <div class="content-team-title-s">
+                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_5hover.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_5" />
+                            </div>
+                            <div class="content-service-item">
+                                <img src="<?php echo RUTA_IMG?>servicios/faciales/f_5.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#f_5" />
+                                <p>Rinoplastía </p>
+                            </div>
+                            <!-- Modal: modalCart -->
+                            <div class="modal fade" id="f_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                aria-hidden="true">
+
+                                <!-- Change class .modal-sm to change the size of the modal -->
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="bg-modal-service">
+                                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="grid-service-modal">
+                                                <div class="description-service-modal">
+                                                    <h2>Rinoplastia</h2>
+                                                    <h6>Intervención quirúrgica que corrige las proporciones de
+                                                        la nariz, con el
+                                                        fin de resolver inconvenientes estéticos y funcionales.
+                                                    </h6>
+                                                </div>
+                                                <div class="title-beneficio">
+                                                    <h4>Beneficios</h4>
+                                                    <ul class="link_check">
+                                                        <li>Intervención quirúrgica de corto tiempo.</li>
+                                                        <li>Equilibra las proporciones de la nariz para que se
+                                                            vea armonioso
+                                                            con todo el rostro. </li>
+                                                        <li>En algunos casos ayuda a mejorar el funcionamiento
+                                                            nasal.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal: modalCart -->
+                        </div>
+                    </div>
+
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
@@ -586,19 +595,20 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <div class="grid-service-item">
 
+
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_1hover.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_1" />
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_5hover.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_5" />
                             </div>
                             <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_1.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_1" />
-                                <p>Lipo localizada </p>
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_5.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_5" />
+                                <p>Abdominoplastia </p>
                             </div>
                             <!-- Modal: modalCart -->
-                            <div class="modal fade" id="c_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                            <div class="modal fade" id="c_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                                 aria-hidden="true">
 
                                 <!-- Change class .modal-sm to change the size of the modal -->
@@ -613,18 +623,20 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                         <div class="modal-body">
                                             <div class="grid-service-modal">
                                                 <div class="description-service-modal">
-                                                    <h2>Lipo localizada</h2>
-                                                    <h6>Extracción focalizada mediante finas cánulas que se
-                                                        insertan a través de
-                                                        pequeñas incisiones en los depósitos grasos situados
-                                                        bajo la piel.</h6>
+                                                    <h2>Abdominoplastia</h2>
+                                                    <h6>Reconstruye la pared abdominal, retirando la piel y
+                                                        grasa excedente para
+                                                        reforzar y resaltar los músculos y marcos óseos para
+                                                        conseguir una
+                                                        figura ideal. Además, corrige la diástasis de los
+                                                        rectos.</h6>
                                                 </div>
                                                 <div class="title-beneficio">
                                                     <h4>Beneficios</h4>
                                                     <ul class="link_check">
-                                                        <li>Procedimiento quirúrgico de corto tiempo.</li>
-                                                        <li>Mejora la forma de tu cuerpo.</li>
-                                                        <li>Complicaciones mínimas.</li>
+                                                        <li>Elimina la grasa abdominal.</li>
+                                                        <li>Luce un perfil abdominal firme, plano y marcado.
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -640,16 +652,16 @@ include_once 'plantillas/documento-declaracion.inc.php';
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_2hover.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_2" />
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_7hover.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_7" />
                             </div>
                             <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_2.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_2" />
-                                <p>Lipomarcación</p>
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_7.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_7" />
+                                <p>Carboxiterapia </p>
                             </div>
                             <!-- Modal: modalCart -->
-                            <div class="modal fade" id="c_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                            <div class="modal fade" id="c_7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                                 aria-hidden="true">
 
                                 <!-- Change class .modal-sm to change the size of the modal -->
@@ -664,18 +676,21 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                         <div class="modal-body">
                                             <div class="grid-service-modal">
                                                 <div class="description-service-modal">
-                                                    <h2>Lipomarcación</h2>
-                                                    <h6>Técnica de lipoescultura que resalta y define los
-                                                        músculos abdominales
-                                                        aportando un aspecto atlético y tonificado. </h6>
+                                                    <h2>Carboxiterapia</h2>
+                                                    <h6>Tratamiento que consiste en la aplicación de inyecciones
+                                                        de gas (dióxido
+                                                        de carbono) por debajo de la piel para mejorar su
+                                                        firmeza, combatir la
+                                                        celulitis, estrías y grasa localizada.
+                                                    </h6>
                                                 </div>
                                                 <div class="title-beneficio">
                                                     <h4>Beneficios</h4>
                                                     <ul class="link_check">
-                                                        <li>Procedimiento quirúrgico con resultados inmediatos.
-                                                        </li>
-                                                        <li>Elimina la grasa abdominal.</li>
-                                                        <li>Luce el vientre plano y marcado.</li>
+                                                        <li> Es un tratamiento, no cirugía.</li>
+                                                        <li> Reduce la celulitis y la flacidez de la piel.</li>
+                                                        <li>Elimina las marcas de cicatriz y estrías.</li>
+
                                                     </ul>
                                                 </div>
                                             </div>
@@ -685,6 +700,58 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                 </div>
                             </div>
                             <!-- Modal: modalCart -->
+                        </div>
+                    </div>
+
+                    <div class="content-team-s">
+                        <div class="content-team-img-s proyect-item-s">
+                            <div class="content-team-title-s">
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_6hover.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_6" />
+                            </div>
+                            <div class="content-service-item">
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_6.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_6" />
+                                <p>Genicomastía </p>
+                            </div>
+                            <!-- Modal: modalCart -->
+                            <div class="modal fade" id="c_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                aria-hidden="true">
+
+                                <!-- Change class .modal-sm to change the size of the modal -->
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="bg-modal-service">
+                                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="grid-service-modal">
+                                                <div class="description-service-modal">
+                                                    <h2>Genicomastía</h2>
+                                                    <h6>Tratamiento enfocado en reducir el agrandamiento de la
+                                                        glándula mamaria
+                                                        masculina o acumulo excesivo de grasa mediante exeresis
+                                                        y/o liposucción.
+                                                    </h6>
+                                                </div>
+                                                <div class="title-beneficio">
+                                                    <h4>Beneficios</h4>
+                                                    <ul class="link_check">
+                                                        <li>Proporciona a los hombres un pecho plano y musculoso
+                                                            y recupera tu
+                                                            silueta varonil.</li>
+                                                        <li>Resultados naturales y de larga duración.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -797,16 +864,16 @@ include_once 'plantillas/documento-declaracion.inc.php';
                     <div class="content-team-s">
                         <div class="content-team-img-s proyect-item-s">
                             <div class="content-team-title-s">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_5hover.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_5" />
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_1hover.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_1" />
                             </div>
                             <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_5.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_5" />
-                                <p>Abdominoplastia </p>
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_1.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_1" />
+                                <p>Lipo localizada </p>
                             </div>
                             <!-- Modal: modalCart -->
-                            <div class="modal fade" id="c_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                            <div class="modal fade" id="c_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                                 aria-hidden="true">
 
                                 <!-- Change class .modal-sm to change the size of the modal -->
@@ -821,126 +888,69 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                         <div class="modal-body">
                                             <div class="grid-service-modal">
                                                 <div class="description-service-modal">
-                                                    <h2>Abdominoplastia</h2>
-                                                    <h6>Reconstruye la pared abdominal, retirando la piel y
-                                                        grasa excedente para
-                                                        reforzar y resaltar los músculos y marcos óseos para
-                                                        conseguir una
-                                                        figura ideal. Además, corrige la diástasis de los
-                                                        rectos.</h6>
+                                                    <h2>Lipo localizada</h2>
+                                                    <h6>Extracción focalizada mediante finas cánulas que se
+                                                        insertan a través de
+                                                        pequeñas incisiones en los depósitos grasos situados
+                                                        bajo la piel.</h6>
                                                 </div>
                                                 <div class="title-beneficio">
                                                     <h4>Beneficios</h4>
                                                     <ul class="link_check">
-                                                        <li>Elimina la grasa abdominal.</li>
-                                                        <li>Luce un perfil abdominal firme, plano y marcado.
+                                                        <li>Procedimiento quirúrgico de corto tiempo.</li>
+                                                        <li>Mejora la forma de tu cuerpo.</li>
+                                                        <li>Complicaciones mínimas.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal: modalCart -->
+                        </div>
+                    </div>
+
+                    <div class="content-team-s">
+                        <div class="content-team-img-s proyect-item-s">
+                            <div class="content-team-title-s">
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_2hover.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_2" />
+                            </div>
+                            <div class="content-service-item">
+                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_2.png" draggable="false"
+                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_2" />
+                                <p>Lipomarcación</p>
+                            </div>
+                            <!-- Modal: modalCart -->
+                            <div class="modal fade" id="c_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                aria-hidden="true">
+
+                                <!-- Change class .modal-sm to change the size of the modal -->
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="bg-modal-service">
+                                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="grid-service-modal">
+                                                <div class="description-service-modal">
+                                                    <h2>Lipomarcación</h2>
+                                                    <h6>Técnica de lipoescultura que resalta y define los
+                                                        músculos abdominales
+                                                        aportando un aspecto atlético y tonificado. </h6>
+                                                </div>
+                                                <div class="title-beneficio">
+                                                    <h4>Beneficios</h4>
+                                                    <ul class="link_check">
+                                                        <li>Procedimiento quirúrgico con resultados inmediatos.
                                                         </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal: modalCart -->
-                        </div>
-                    </div>
-
-                    <div class="content-team-s">
-                        <div class="content-team-img-s proyect-item-s">
-                            <div class="content-team-title-s">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_6hover.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_6" />
-                            </div>
-                            <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_6.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_6" />
-                                <p>Genicomastía </p>
-                            </div>
-                            <!-- Modal: modalCart -->
-                            <div class="modal fade" id="c_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                                aria-hidden="true">
-
-                                <!-- Change class .modal-sm to change the size of the modal -->
-                                <div class="modal-dialog modal-lg" role="document">
-                                    <div class="modal-content">
-                                        <div class="bg-modal-service">
-                                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="grid-service-modal">
-                                                <div class="description-service-modal">
-                                                    <h2>Genicomastía</h2>
-                                                    <h6>Tratamiento enfocado en reducir el agrandamiento de la
-                                                        glándula mamaria
-                                                        masculina o acumulo excesivo de grasa mediante exeresis
-                                                        y/o liposucción.
-                                                    </h6>
-                                                </div>
-                                                <div class="title-beneficio">
-                                                    <h4>Beneficios</h4>
-                                                    <ul class="link_check">
-                                                        <li>Proporciona a los hombres un pecho plano y musculoso
-                                                            y recupera tu
-                                                            silueta varonil.</li>
-                                                        <li>Resultados naturales y de larga duración.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content-team-s">
-                        <div class="content-team-img-s proyect-item-s">
-                            <div class="content-team-title-s">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_7hover.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_7" />
-                            </div>
-                            <div class="content-service-item">
-                                <img src="<?php echo RUTA_IMG?>servicios/corporales/c_7.png" draggable="false"
-                                    class="img-fluid p-3" data-toggle="modal" data-target="#c_7" />
-                                <p>Carboxiterapia </p>
-                            </div>
-                            <!-- Modal: modalCart -->
-                            <div class="modal fade" id="c_7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                                aria-hidden="true">
-
-                                <!-- Change class .modal-sm to change the size of the modal -->
-                                <div class="modal-dialog modal-lg" role="document">
-                                    <div class="modal-content">
-                                        <div class="bg-modal-service">
-                                            <h4 class="modal-title w-100" id="myModalLabel"></h4>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <img src="<?php echo RUTA_IMG?>equis.png" draggable="false" />
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="grid-service-modal">
-                                                <div class="description-service-modal">
-                                                    <h2>Carboxiterapia</h2>
-                                                    <h6>Tratamiento que consiste en la aplicación de inyecciones
-                                                        de gas (dióxido
-                                                        de carbono) por debajo de la piel para mejorar su
-                                                        firmeza, combatir la
-                                                        celulitis, estrías y grasa localizada.
-                                                    </h6>
-                                                </div>
-                                                <div class="title-beneficio">
-                                                    <h4>Beneficios</h4>
-                                                    <ul class="link_check">
-                                                        <li> Es un tratamiento, no cirugía.</li>
-                                                        <li> Reduce la celulitis y la flacidez de la piel.</li>
-                                                        <li>Elimina las marcas de cicatriz y estrías.</li>
-
+                                                        <li>Elimina la grasa abdominal.</li>
+                                                        <li>Luce el vientre plano y marcado.</li>
                                                     </ul>
                                                 </div>
                                             </div>

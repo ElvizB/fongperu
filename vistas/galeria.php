@@ -44,9 +44,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="description-galery">
             <h2>Galería</h2>
             <p>
-                Queremos que te sientas armonizada en todo sentido; por eso, dependiendo de lo que necesites te
-                brindamos las diferentes opciones que tenemos para ayudarte a alcanzar el bienestar integral que tanto
-                buscas, exponer lo que eres y explotar todo tu potencial
+                Cuando estás empoderado/a lo sientes y lo sacas a relucir con tu belleza. Mira como ellos/ellas han
+                potenciado su ser y exponen con tanta alegría lo que son.
             </p>
         </div>
 
@@ -62,9 +61,12 @@ include_once 'plantillas/documento-declaracion.inc.php';
 <section>
     <div class="grid_galeria">
         <div class="img-galeria p-4">
-            <img src="<?php echo RUTA_IMG?>galeria/g_1.png" draggable="false" class="img-fluid" data-toggle="modal"
-                data-target="#g_1" />
+            <img src="<?php echo RUTA_IMG?>galeria/g_1.png" draggable="false" class="img-fluid imgzoom"
+                data-toggle="modal" data-target="#g_1" />
+
             <p>Lorena Fajardo</p>
+
+
             <!-- Modal: modalCart -->
             <div class="modal fade" id="g_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                 aria-hidden="true">
@@ -93,9 +95,15 @@ include_once 'plantillas/documento-declaracion.inc.php';
         </div>
 
         <div class="img-galeria p-4">
-            <img src="<?php echo RUTA_IMG?>galeria/g_3.png" draggable="false" class="img-fluid" data-toggle="modal"
-                data-target="#g_3" />
-            <p>Ariana Marcani</p>
+            <img src="<?php echo RUTA_IMG?>galeria/g_3.png" draggable="false" class="img-fluid imgzoom"
+                data-toggle="modal" data-target="#g_3" />
+            <div class="grid-video">
+                <p>Ariana Marcani</p>
+                <a href="https://www.youtube.com/watch?v=0gz1qOICQuM" target="_blank">
+                    <img src="<?php echo RUTA_IMG?>yt.png" draggable="false" class="" />
+                </a>
+            </div>
+
             <!-- Modal: modalCart -->
             <div class="modal fade" id="g_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                 aria-hidden="true">
@@ -123,9 +131,15 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <!-- Modal: modalCart -->
         </div>
         <div class="img-galeria p-4">
-            <img src="<?php echo RUTA_IMG?>galeria/g_4.png" draggable="false" class="img-fluid" data-toggle="modal"
-                data-target="#g_4" />
-            <p>Edson Dávila</p>
+            <img src="<?php echo RUTA_IMG?>galeria/g_4.png" draggable="false" class="img-fluid imgzoom"
+                data-toggle="modal" data-target="#g_4" />
+            <div class="grid-video">
+                <p>Edson Dávila</p>
+                <a href="https://www.youtube.com/watch?v=3T78mgUO3_w" target="_blank">
+                    <img src="<?php echo RUTA_IMG?>yt.png" draggable="false" class="" />
+                </a>
+            </div>
+
             <!-- Modal: modalCart -->
             <div class="modal fade" id="g_4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                 aria-hidden="true">
