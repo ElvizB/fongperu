@@ -10,22 +10,26 @@
             <div class="link-footer">
                 <ul>
                     <li><a href="<?php echo SERVIDOR ?>">home +</a></li>
-                    <li><a href="">nosotros +</a></li>
+                    <li><a href="<?php echo RUTA_NOSOTROS ?>">nosotros +</a></li>
                     <li><a href="<?php echo RUTA_SERVICIOS ?>">servicios +</a></li>
-                    <li><a href="">galería +</a></li>
-                    <li><a href="">blog +</a></li>
+                    <li><a href="<?php echo RUTA_GALERIA ?>">galería +</a></li>
+                    <li><a href="https://www.empoderatefong.com/" target="_blank">blog +</a></li>
                     <li><a href="<?php echo RUTA_CONTACTO ?>">contacto +</a></li>
                 </ul>
             </div>
             <div class="media-footer">
                 <div class="content-media">
-                    <img src="<?php echo RUTA_IMG?>footer/fb.png" draggable="false" />
-                    <img src="<?php echo RUTA_IMG?>footer/ig.png" draggable="false" />
+                    <a href="https://www.facebook.com/cirugiaesteticafong" target="_blank">
+                        <img src="<?php echo RUTA_IMG?>footer/fb.png" draggable="false" />
+                    </a>
+                    <a href="https://www.instagram.com/cirugiaesteticafong/" target="_blank">
+                        <img src="<?php echo RUTA_IMG?>footer/ig.png" draggable="false" />
+                    </a>
                     <img src="<?php echo RUTA_IMG?>footer/email.png" draggable="false" />
                 </div>
-                <div>
+                <!-- <div>
                     <input type="text">
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="derechos-footer">

@@ -67,7 +67,7 @@
   .grid_galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1440px;
+    max-width: 1200px;
     grid-row-gap: 0em;
   }
 }

@@ -2,13 +2,13 @@
   padding: 0px 15px;
   background: url(../../images/servicios/bg_test.png) no-repeat top;
   background-size: cover;
-  height: 68vh;
+  height: 70vh;
 }
 .grid-testimonio {
   max-width: 1024px;
   margin: auto;
-  padding: 85px 0px;
   text-align: center;
+  padding-top: 3em;
 }
 
 .content-service-item p {
@@ -228,7 +228,8 @@
     margin-bottom: 0em;
   }
   .testimonio {
-    height: 60vh;
+    height: 65vh;
+    display: grid;
   }
   .grid-testimonio-img p {
     font-size: 26px;
@@ -238,9 +239,6 @@
   }
   .grid-service-item {
     grid-template-columns: repeat(3, 1fr);
-  }
-  .service {
-    padding: 50px 130px;
   }
 
   .header-s {

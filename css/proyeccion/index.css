@@ -111,6 +111,8 @@
   .grid_social {
     grid-template-columns: repeat(2, 1fr);
     gap: 3em;
+    max-width: 1200px;
+    margin: auto;
   }
   .content-comillas {
     margin-top: 2em;
