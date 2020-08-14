@@ -31,8 +31,13 @@
 }
 
 .comentarios {
-  background: #ddd2bb;
-  padding: 0 20px;
+  /* background: #ddd2bb;
+  padding: 0 20px; */
+}
+.bg-social {
+  background: url(../../images/compromiso/bg.png) no-repeat top;
+  background-size: cover;
+  height: 83vh;
 }
 
 .grid-comemnt {
@@ -42,13 +47,9 @@
   display: grid;
   height: 100%;
   align-content: center;
-  padding: 0 0 50px;
+  padding: 0 20px;
 }
 
-.title-comment {
-  text-align: center;
-  padding: 40px 0 0;
-}
 .comillas-pr {
   font-family: "Amanda Regular";
   font-size: 70px;
@@ -62,13 +63,11 @@
   display: grid;
   justify-content: right;
 }
-.content-comillas {
-  margin-top: 1.7em;
-  padding: 0 0px 0 9px;
-}
+
 .title-comment p {
-  font-family: "Rotunda Regular";
+  font-family: "Rotunda Light";
   font-size: 19px;
+  text-align: justify;
 }
 
 .title-comment h2 {
@@ -114,22 +113,18 @@
     max-width: 1200px;
     margin: auto;
   }
-  .content-comillas {
-    margin-top: 2em;
-    padding: 0 0px 0 15px;
-  }
   .comillas-pr {
     font-size: 100px;
   }
   .comillas-pr2 {
     font-size: 100px;
   }
-  .grid-comemnt {
-    padding: 0 0 100px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
+  .grid-comemnt {
+    padding: 0 0;
+  }
   .header-ps {
     background-size: contain;
   }
@@ -143,10 +138,8 @@
     font-size: 45px;
   }
   .title-comment p {
-    font-size: 25px;
-  }
-  .title-comment {
-    padding: 120px 0 0;
+    font-size: 31px;
+    text-align: center;
   }
   .comillas-pr2 span {
     margin-bottom: 0.3em;

@@ -7,7 +7,6 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  background: #8ec1d9;
 }
 
 .footer-contact {
@@ -21,7 +20,6 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  background: #ddd2bb;
 }
 .footer::before {
   content: "";
@@ -171,7 +169,7 @@
     padding: 50px 0px;
   }
   .footer-service::before {
-    transform: scaleX(2.7);
+    transform: scaleX(2);
   }
   .footer-contact .content {
     max-width: 1024px;
@@ -179,7 +177,7 @@
     padding: 50px 0px;
   }
   .footer-contact::before {
-    transform: scaleX(2.7);
+    transform: scaleX(2);
   }
   .footer-media .content {
     max-width: 1024px;
@@ -187,7 +185,7 @@
     padding: 50px 0px;
   }
   .footer-media::before {
-    transform: scaleX(2.7);
+    transform: scaleX(2);
   }
   .title-footer {
     padding-top: 0px;

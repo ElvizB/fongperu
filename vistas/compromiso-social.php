@@ -76,20 +76,22 @@ include_once 'plantillas/documento-declaracion.inc.php';
 </section>
 
 <section class="comentarios">
-    <div class="grid-comemnt">
-        <div class="title-comment">
+    <div class="bg-social">
+        <div class="grid-comemnt">
+            <div class="title-comment">
 
-            <div class="content-comillas">
-                <p>
-                    Estoy seguro que cada día es una nueva oportunidad de ser felices y ser mejores personas.
-                    Cualquier
-                    acción altruista puede cambiar la vida de otra persona.
-                </p>
+                <div class="content-comillas">
+                    <p>
+                        Estoy seguro que cada día es una nueva oportunidad de ser felices y ser mejores personas.
+                        Cualquier
+                        acción altruista puede cambiar la vida de otra persona.
+                    </p>
+                </div>
+
             </div>
-
-        </div>
-        <div class="desc_doc">
-            <h2>- Dr. Fong -</h2>
+            <div class="desc_doc">
+                <h2>- Dr. Fong -</h2>
+            </div>
         </div>
     </div>
 </section>

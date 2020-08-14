@@ -53,14 +53,14 @@
   width: 100%;
 }
 .menu-bg {
-  z-index: 1;
+  z-index: 2;
   width: 0;
   height: 0;
   background: linear-gradient(45deg, black, transparent);
   transition: 0.3s ease;
 }
 #menu-bar {
-  z-index: 2;
+  z-index: 3;
 }
 .change-bg {
   width: 100%;
