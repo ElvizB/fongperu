@@ -106,10 +106,27 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <div class="select_form">
                                 <select name="consultoria" id="consultoria">
                                     <option value="" selected disabled>ESTOY INTERESAD@ EN</option>
-                                    <option value="Smart Cities">Prueba 1</option>
-                                    <option value="Smart Cities">Prueba 1</option>
-                                    <option value="Smart Cities">Prueba 1</option>
-                                    <option value="Smart Cities">Prueba 1</option>
+                                    <option value="Abdominoplastia">Abdominoplastia</option>
+                                    <option value="Ácido Hialurónico">Ácido Hialurónico</option>
+                                    <option value="Bichectomía">Bichectomía </option>
+                                    <option value="Blefaroplastía">Blefaroplastía</option>
+                                    <option value="Carboxiterapia">Carboxiterapia</option>
+                                    <option value="Genicomastía">Genicomastía </option>
+                                    <option value="Implante mamario mamario">Implante mamario</option>
+                                    <option value="Levantamiento de glúteos">Levantamiento de glúteos</option>
+                                    <option value="Limpieza facial">Limpieza facial</option>
+                                    <option value="Lipolocalizada">Lipolocalizada</option>
+                                    <option value="Lipomarcación">Lipomarcación</option>
+                                    <option value="Liposucción de papada">Liposucción de papada</option>
+                                    <option value="Masajes relajantes">Masajes relajantes</option>
+                                    <option value="Otoplastia">Otoplastia</option>
+                                    <option value="Plastia de cicatriz">Plastia de cicatriz</option>
+                                    <option value="Rejuvenecimiento facial/Nanofat">Rejuvenecimiento facial/Nanofat
+                                    </option>
+                                    <option value="Rinomodelación">Rinomodelación</option>
+                                    <option value="Rinoplastía">Rinoplastía</option>
+                                    <option value="Toxina butolínica">Toxina butolínica</option>
+
 
                                 </select>
                             </div>

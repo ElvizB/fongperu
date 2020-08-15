@@ -712,7 +712,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <div class="content-service-item">
                                 <img src="<?php echo RUTA_IMG?>servicios/corporales/c_6.png" draggable="false"
                                     class="img-fluid p-3" data-toggle="modal" data-target="#c_6" />
-                                <p>Genicomastía </p>
+                                <p>Ginecomastia </p>
                             </div>
                             <!-- Modal: modalCart -->
                             <div class="modal fade" id="c_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
