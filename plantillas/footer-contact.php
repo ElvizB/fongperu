@@ -25,7 +25,9 @@
                     <a href="https://www.instagram.com/cirugiaesteticafong/" target="_blank">
                         <img src="<?php echo RUTA_IMG?>footer/ig.png" draggable="false" />
                     </a>
-                    <img src="<?php echo RUTA_IMG?>footer/email.png" draggable="false" />
+                    <a href="mailto:hola@esteticafong.com" target="_parent">
+                        <img src="<?php echo RUTA_IMG?>footer/email.png" draggable="false" />
+                    </a>
                 </div>
                 <!-- <div>
                     <input type="text">
