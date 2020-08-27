@@ -41,7 +41,7 @@
                         profesionalismo, experiencia y compromiso supo guiarme y asesorarme para conseguir los
                         resultados deseados.
                     </p>
-                    <h6>- Diana -</h6>
+                    <h6>- Diana Alcántara-</h6>
                 </div>
             </div>
 

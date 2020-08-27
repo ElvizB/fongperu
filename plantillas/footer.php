@@ -28,6 +28,9 @@
                     <a href="mailto:hola@esteticafong.com" target="_parent">
                         <img src="<?php echo RUTA_IMG?>footer/email.png" draggable="false" />
                     </a>
+                    <a href="https://www.youtube.com/channel/UCkPzm6YEisXpWFqDBYgvFgw" target="_blank">
+                        <img src="<?php echo RUTA_IMG?>footer/yt.png" draggable="false" />
+                    </a>
                 </div>
                 <!-- <div>
                     <input type="text">
@@ -37,6 +40,12 @@
         <div class="derechos-footer">
             <p>© Fong Estética | Diseño by Natalia Mejía Marínez</p>
         </div>
+    </div>
+    <div class="icon-bar">
+        <a href="https://api.whatsapp.com/send?phone=51952302613&text=Hola" target="_blank" class="btn-wp ">
+            <img src="<?php echo RUTA_IMG?>footer/wp-footer.png" draggable="false">
+        </a>
+
     </div>
 </footer>
 <!-- Footer -->

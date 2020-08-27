@@ -43,7 +43,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <h2>Contacto</h2>
 
             <div class="description-contact">
-                <p><b>Teléfonos:</b> 952 302 613 - 999 933 336</p>
+                <p><b>Teléfonos:</b> 952 302 613</p>
                 <p><b>E-mail:</b> hola@esteticafong.com</p>
                 <p><b>Dirección:</b> Av. José Faustino Sánchez Carrión 615</p>
                 <p>Int. 803 | Jesús María - Lima, Perú </p>
