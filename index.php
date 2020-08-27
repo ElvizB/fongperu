@@ -13,7 +13,7 @@ $partes_ruta = array_slice($partes_ruta, 0);
 
 $ruta_elegida = 'vistas/404.php';
 
-if($partes_ruta[0] == 'fongperu'){
+if($partes_ruta[0] == 'fongperu.herokuapp.com'){
   if (count($partes_ruta) == 1){
     $ruta_elegida = 'vistas/home.php';
   }else if (count($partes_ruta) == 2){
